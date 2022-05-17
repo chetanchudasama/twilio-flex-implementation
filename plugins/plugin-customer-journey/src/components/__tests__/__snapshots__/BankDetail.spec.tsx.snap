@@ -1,0 +1,397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankDetail renders correctly 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1 css-1a5ug3b"
+>
+  <div
+    className="MuiGrid-container-29"
+  >
+    <div
+      className="MuiCardContent-root-126 card-content"
+    >
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 bank-detail-header"
+      >
+        Bank details
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Bank name
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="Bank of England"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Months at bank
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value={11}
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Name on bank account
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="Edward Gibbs"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Account no.
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="31510604"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Sort code
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="56-57-77"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 monthly-income-container"
+      >
+        <div
+          className="MuiFormControl-root-131 MuiFormControl-marginDense-133 MuiFormControl-fullWidth-134 CustomInputContent-formControl-127"
+        >
+          <label
+            className="MuiFormLabel-root-146 MuiFormLabel-filled-150 MuiFormLabel-required-151 MuiInputLabel-required-139 MuiInputLabel-root-135 MuiInputLabel-formControl-140 MuiInputLabel-animated-143 MuiInputLabel-shrink-142 MuiInputLabel-marginDense-141 CustomInputContent-label-128"
+            data-shrink={true}
+          >
+            Net monthly income
+            <span
+              className="MuiFormLabel-asterisk-152"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root-166 MuiOutlinedInput-root-153 MuiInputBase-formControl-167 MuiInputBase-marginDense-173 CustomInputContent-input-129 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline-160"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-184"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-176 MuiOutlinedInput-input-161 MuiInputBase-inputMarginDense-177 MuiOutlinedInput-inputMarginDense-162"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value={30000}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiCardActions-root-185 card-action"
+    >
+      <div
+        className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 MuiCardActions-action-187"
+      >
+        <button
+          className="MuiButtonBase-root-214 MuiButton-root-188 MuiButton-contained-199 MuiButton-containedSecondary-201 MuiButton-raised-202 MuiButton-raisedSecondary-204 update-btn"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-189"
+          >
+            Update Details
+          </span>
+          <span
+            className="MuiTouchRipple-root-217"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

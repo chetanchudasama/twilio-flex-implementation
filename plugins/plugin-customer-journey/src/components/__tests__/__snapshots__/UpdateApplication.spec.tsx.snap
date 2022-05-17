@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateApplication renders correctly on load 1`] = `
+<div
+  className="css-1j429wh"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 update-application"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-8-37"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 update-application-heading"
+        >
+          Update application
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 update-application-text"
+        >
+          This will save the above information to a note in this customer's application.
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 update-button"
+    >
+      <button
+        className="MuiButtonBase-root-124 MuiButton-root-98 MuiButton-outlined-106 update-application-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-99"
+        >
+          Update Application
+        </span>
+        <span
+          className="MuiTouchRipple-root-127"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

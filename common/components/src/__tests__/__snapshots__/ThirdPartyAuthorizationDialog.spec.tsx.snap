@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThirdPartyAuthorizationDialog renders correctly 1`] = `
+<div>
+  <div
+    className="css-mof3sf"
+  >
+    <div
+      className="MuiGrid-container-1 third-party-permission-container"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+      >
+        <p>
+          You are leaving third-party permission for this customer. All fields are required
+        </p>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 form-input"
+      >
+        <div
+          className="MuiFormControl-root-98 MuiFormControl-fullWidth-101 name"
+        >
+          <label
+            className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink={false}
+          >
+            Name
+            <span
+              className="MuiFormLabel-asterisk-119"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-143 MuiInput-input-128"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 form-input"
+      >
+        <div
+          className="MuiFormControl-root-98 MuiFormControl-fullWidth-101 address"
+        >
+          <label
+            className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink={false}
+          >
+            Address
+            <span
+              className="MuiFormLabel-asterisk-119"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121 MuiInputBase-multiline-141 MuiInput-multiline-126"
+            onClick={[Function]}
+          >
+            <textarea
+              aria-invalid={false}
+              className="MuiInputBase-input-143 MuiInput-input-128 MuiInputBase-inputMultiline-145 MuiInput-inputMultiline-130"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows={2}
+              value=""
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 form-input"
+      >
+        <div
+          className="MuiFormControl-root-98 MuiFormControl-fullWidth-101 postcode"
+        >
+          <label
+            className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink={false}
+          >
+            Postcode
+            <span
+              className="MuiFormLabel-asterisk-119"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-143 MuiInput-input-128"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 form-input padding-right"
+      >
+        <div>
+          Date Picker
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 form-input padding-left"
+      >
+        <div>
+          Date Picker
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 form-input"
+      >
+        <div
+          className="MuiFormControl-root-98 MuiFormControl-fullWidth-101 do-not-discuss"
+        >
+          <label
+            className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink={false}
+          >
+            Do Not discuss
+            <span
+              className="MuiFormLabel-asterisk-119"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121 MuiInputBase-multiline-141 MuiInput-multiline-126"
+            onClick={[Function]}
+          >
+            <textarea
+              aria-invalid={false}
+              className="MuiInputBase-input-143 MuiInput-input-128 MuiInputBase-inputMultiline-145 MuiInput-inputMultiline-130"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows={2}
+              value=""
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 form-input"
+      >
+        <label
+          className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-animated-110"
+        >
+          Third Party Removal Author
+          <span
+            className="MuiFormLabel-asterisk-119"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="MuiFormControl-root-98 MuiFormControl-fullWidth-101"
+        >
+          <div
+            className="MuiFormGroup-root-150 radio-group"
+            role="radiogroup"
+          >
+            <div>
+              Form Control
+            </div>
+            <div>
+              Form Control
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

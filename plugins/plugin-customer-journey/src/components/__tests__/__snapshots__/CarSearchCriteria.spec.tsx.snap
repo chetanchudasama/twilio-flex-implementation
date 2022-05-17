@@ -1,0 +1,901 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearchCriteria renders correctly 1`] = `
+<div
+  className="css-ks4l35"
+>
+  <div
+    className="car-search-container"
+  >
+    <div
+      className="MuiGrid-container-1"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div
+            className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomMultiSelectComponent-formControl-98"
+          >
+            <label
+              className="MuiFormLabel-root-120 MuiFormLabel-filled-124 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomMultiSelectComponent-label-99"
+              data-shrink={true}
+            >
+              Car make
+            </label>
+            <div
+              className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 CustomMultiSelectComponent-selectWithLabel-101 "
+              onClick={[Function]}
+            >
+              <fieldset
+                aria-hidden={true}
+                className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="MuiPrivateNotchedOutline-legend-165"
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+              <div
+                className="MuiSelect-root-127"
+              >
+                <div
+                  aria-haspopup="true"
+                  aria-pressed="false"
+                  className="MuiSelect-select-128 MuiSelect-selectMenu-131 MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143"
+                  id="select-Car make"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  Select a make
+                </div>
+                <input
+                  name="Car make"
+                  type="hidden"
+                  value="-1"
+                />
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-166 MuiSelect-icon-133"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div
+            className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomMultiSelectComponent-formControl-98"
+          >
+            <label
+              className="MuiFormLabel-root-120 MuiFormLabel-filled-124 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomMultiSelectComponent-label-99"
+              data-shrink={true}
+            >
+              Car model
+            </label>
+            <div
+              className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-disabled-150 MuiOutlinedInput-disabled-136 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 CustomMultiSelectComponent-selectWithLabel-101 CustomMultiSelectComponent-disabled-102"
+              onClick={[Function]}
+            >
+              <fieldset
+                aria-hidden={true}
+                className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="MuiPrivateNotchedOutline-legend-165"
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+              <div
+                className="MuiSelect-root-127"
+              >
+                <div
+                  aria-haspopup="true"
+                  aria-pressed="false"
+                  className="MuiSelect-select-128 MuiSelect-selectMenu-131 MuiSelect-disabled-132 MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-disabled-150 MuiOutlinedInput-disabled-136 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143"
+                  id="select-Car model"
+                  onBlur={[Function]}
+                  onClick={null}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex={null}
+                >
+                  Select a model
+                </div>
+                <input
+                  name="Car model"
+                  type="hidden"
+                  value="-1"
+                />
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-166 MuiSelect-icon-133"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div
+            className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomSelectContent-formControl-179"
+          >
+            <label
+              className="MuiFormLabel-root-120 MuiFormLabel-filled-124 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomSelectContent-label-180"
+              data-shrink={true}
+            >
+              Distance
+            </label>
+            <div
+              className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 CustomSelectContent-selectWithLabel-182 "
+              onClick={[Function]}
+            >
+              <fieldset
+                aria-hidden={true}
+                className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="MuiPrivateNotchedOutline-legend-165"
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+              <div
+                className="MuiSelect-root-127"
+              >
+                <div
+                  aria-haspopup="true"
+                  aria-pressed="false"
+                  className="MuiSelect-select-128 MuiSelect-selectMenu-131 MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143"
+                  id="select-Distance"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  Within 0 miles
+                </div>
+                <input
+                  name="Distance"
+                  type="hidden"
+                  value={0}
+                />
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-166 MuiSelect-icon-133"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 dealer-container"
+        >
+          <label
+            className="MuiFormLabel-root-120 MuiInputLabel-root-109 MuiInputLabel-animated-117 MuiInputLabel-shrink-116"
+            data-shrink={true}
+          >
+            Dealer
+          </label>
+          <div
+            className="dealer-search"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div
+            className="MuiFormControl-root-105"
+          >
+            <label
+              className="MuiFormControlLabel-root-184"
+            >
+              <span
+                className="MuiButtonBase-root-206 MuiIconButton-root-200 MuiPrivateSwitchBase-root-196 MuiCheckbox-root-190 MuiCheckbox-colorSecondary-195"
+                onBlur={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={null}
+              >
+                <span
+                  className="MuiIconButton-label-205"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-166"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                  <input
+                    checked={false}
+                    className="MuiPrivateSwitchBase-input-199"
+                    data-indeterminate={false}
+                    disabled={false}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="Dealer Includes"
+                  />
+                </span>
+                <span
+                  className="MuiTouchRipple-root-296"
+                />
+              </span>
+              <span
+                className="MuiTypography-root-209 MuiTypography-body1-218 MuiFormControlLabel-label-189"
+              >
+                Include dealers who deliver
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-7-36 budget-container"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 budget-type"
+        >
+          <div
+            className="MuiFormControl-root-105"
+          >
+            <div
+              className="MuiFormGroup-root-245 MuiFormGroup-row-246"
+              role="radiogroup"
+            >
+              <label
+                className="MuiFormControlLabel-root-184"
+              >
+                <span
+                  className="MuiButtonBase-root-206 MuiIconButton-root-200 MuiPrivateSwitchBase-root-196 MuiRadio-root-247 MuiRadio-colorSecondary-251 MuiPrivateSwitchBase-checked-197 MuiRadio-checked-248 total-budget"
+                  onBlur={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-205"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-166"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <input
+                      checked={true}
+                      className="MuiPrivateSwitchBase-input-199"
+                      disabled={false}
+                      onChange={[Function]}
+                      type="radio"
+                      value="1"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-296"
+                  />
+                </span>
+                <span
+                  className="MuiTypography-root-209 MuiTypography-body1-218 MuiFormControlLabel-label-189"
+                >
+                  Search by Total Price
+                </span>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-184 padding-left monthly-budget"
+              >
+                <span
+                  className="MuiButtonBase-root-206 MuiIconButton-root-200 MuiPrivateSwitchBase-root-196 MuiRadio-root-247 MuiRadio-colorSecondary-251"
+                  onBlur={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-205"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-166"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiPrivateSwitchBase-input-199"
+                      disabled={false}
+                      onChange={[Function]}
+                      type="radio"
+                      value="2"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-296"
+                  />
+                </span>
+                <span
+                  className="MuiTypography-root-209 MuiTypography-body1-218 MuiFormControlLabel-label-189"
+                >
+                  Search by Monthly Price
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 padding-right"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 price-container"
+            >
+              <div
+                className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomInputContent-formControl-252"
+              >
+                <label
+                  className="MuiFormLabel-root-120 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomInputContent-label-253"
+                  data-shrink={true}
+                >
+                  Total Price*
+                </label>
+                <div
+                  className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 MuiInputBase-adornedStart-151 MuiOutlinedInput-adornedStart-137 CustomInputContent-input-254 "
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-165"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <div
+                    className="MuiInputAdornment-root-256 MuiInputAdornment-positionStart-258"
+                  >
+                    <p
+                      className="MuiTypography-root-209 MuiTypography-body1-218 MuiTypography-colorTextSecondary-242"
+                    >
+                      £
+                    </p>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    className="MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143 MuiInputBase-inputAdornedStart-162 MuiOutlinedInput-inputAdornedStart-145"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="0.00"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomInputContent-formControl-252"
+              >
+                <label
+                  className="MuiFormLabel-root-120 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomInputContent-label-253"
+                  data-shrink={true}
+                >
+                  Part Ex. Value
+                </label>
+                <div
+                  className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 MuiInputBase-adornedStart-151 MuiOutlinedInput-adornedStart-137 CustomInputContent-input-254 "
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-165"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <div
+                    className="MuiInputAdornment-root-256 MuiInputAdornment-positionStart-258"
+                  >
+                    <p
+                      className="MuiTypography-root-209 MuiTypography-body1-218 MuiTypography-colorTextSecondary-242"
+                    >
+                      £
+                    </p>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    className="MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143 MuiInputBase-inputAdornedStart-162 MuiOutlinedInput-inputAdornedStart-145"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="0.00"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomInputContent-formControl-252"
+              >
+                <label
+                  className="MuiFormLabel-root-120 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomInputContent-label-253"
+                  data-shrink={true}
+                >
+                  Deposit
+                </label>
+                <div
+                  className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 MuiInputBase-adornedStart-151 MuiOutlinedInput-adornedStart-137 CustomInputContent-input-254 "
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-165"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <div
+                    className="MuiInputAdornment-root-256 MuiInputAdornment-positionStart-258"
+                  >
+                    <p
+                      className="MuiTypography-root-209 MuiTypography-body1-218 MuiTypography-colorTextSecondary-242"
+                    >
+                      £
+                    </p>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    className="MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143 MuiInputBase-inputAdornedStart-162 MuiOutlinedInput-inputAdornedStart-145"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="0.00"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 padding-left"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomSelectContent-formControl-179"
+              >
+                <label
+                  className="MuiFormLabel-root-120 MuiFormLabel-filled-124 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomSelectContent-label-180"
+                  data-shrink={true}
+                >
+                  Term*
+                </label>
+                <div
+                  className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 CustomSelectContent-selectWithLabel-182 "
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-165"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <div
+                    className="MuiSelect-root-127"
+                  >
+                    <div
+                      aria-haspopup="true"
+                      aria-pressed="false"
+                      className="MuiSelect-select-128 MuiSelect-selectMenu-131 MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143"
+                      id="select-Term*"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      role="button"
+                      tabIndex={0}
+                    >
+                      36 months
+                    </div>
+                    <input
+                      name="Term*"
+                      type="hidden"
+                      value={36}
+                    />
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-166 MuiSelect-icon-133"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="MuiFormControl-root-105 MuiFormControl-marginDense-107 MuiFormControl-fullWidth-108 CustomInputContent-formControl-252"
+              >
+                <label
+                  className="MuiFormLabel-root-120 MuiInputLabel-root-109 MuiInputLabel-formControl-114 MuiInputLabel-animated-117 MuiInputLabel-shrink-116 MuiInputLabel-marginDense-115 CustomInputContent-label-253"
+                  data-shrink={true}
+                >
+                  Part Ex. Settlement
+                </label>
+                <div
+                  className="MuiInputBase-root-147 MuiOutlinedInput-root-134 MuiInputBase-formControl-148 MuiInputBase-marginDense-154 MuiInputBase-adornedStart-151 MuiOutlinedInput-adornedStart-137 CustomInputContent-input-254 "
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-164 MuiOutlinedInput-notchedOutline-141"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-165"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <div
+                    className="MuiInputAdornment-root-256 MuiInputAdornment-positionStart-258"
+                  >
+                    <p
+                      className="MuiTypography-root-209 MuiTypography-body1-218 MuiTypography-colorTextSecondary-242"
+                    >
+                      £
+                    </p>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    className="MuiInputBase-input-157 MuiOutlinedInput-input-142 MuiInputBase-inputMarginDense-158 MuiOutlinedInput-inputMarginDense-143 MuiInputBase-inputAdornedStart-162 MuiOutlinedInput-inputAdornedStart-145"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="0.00"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="text-align-right"
+    >
+      <button
+        className="MuiButtonBase-root-206 MuiButton-root-261 MuiButton-text-263 MuiButton-flat-266 MuiButton-colorInherit-282 link"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-262"
+        >
+          Advanced search
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-container-1 margin-top"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+    >
+      <button
+        className="MuiButtonBase-root-206 MuiButton-root-261 MuiButton-text-263 MuiButton-flat-266 MuiButton-colorInherit-282 link"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-262"
+        >
+          Search by VRM
+        </span>
+      </button>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 text-align-right"
+    >
+      <button
+        className="MuiButtonBase-root-206 MuiButton-root-261 MuiButton-contained-272 MuiButton-containedSecondary-274 MuiButton-raised-275 MuiButton-raisedSecondary-277 MuiButton-sizeLarge-285 search-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-262"
+        >
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-287 MuiIcon-fontSizeSmall-294 search-icon"
+          >
+            search
+          </span>
+          Search
+        </span>
+        <span
+          className="MuiTouchRipple-root-296"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

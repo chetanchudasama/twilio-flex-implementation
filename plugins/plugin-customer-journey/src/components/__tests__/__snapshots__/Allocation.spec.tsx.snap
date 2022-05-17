@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Allocation renders correctly on load 1`] = `
+<div
+  className="css-18isgbz"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 allocation"
+    >
+      <div
+        className="heading"
+      >
+        Allocation
+      </div>
+      <div>
+        <button
+          className="MuiButtonBase-root-124 MuiButton-root-98 MuiButton-contained-109 MuiButton-containedSecondary-111 MuiButton-raised-112 MuiButton-raisedSecondary-114 find-agent-btn"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[MockFunction]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-99"
+          >
+            Find Agent
+          </span>
+          <span
+            className="MuiTouchRipple-root-127"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

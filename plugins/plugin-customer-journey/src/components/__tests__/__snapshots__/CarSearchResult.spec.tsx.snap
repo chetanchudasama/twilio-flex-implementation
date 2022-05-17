@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearchResult renders correctly, if no vehicle found 1`] = `
+<div
+  className="css-1ma0a9h"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 no-result"
+  >
+    No cars found.
+  </div>
+</div>
+`;
+
+exports[`CarSearchResult renders correctly, if vehicle found in search list 1`] = `
+<div
+  className="css-1ma0a9h"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 result-sort-container"
+  >
+    <div
+      className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+    >
+      <div
+        className="MuiGrid-item-2 result-text"
+      >
+        1 result
+      </div>
+      <div
+        className="MuiGrid-item-2"
+      >
+        <div
+          className="MuiFormControl-root-103 MuiFormControl-marginDense-105 MuiFormControl-fullWidth-106 CustomSelectContent-formControl-98"
+        >
+          <div
+            className="MuiInputBase-root-127 MuiOutlinedInput-root-114 MuiInputBase-formControl-128 MuiInputBase-marginDense-134 CustomSelectContent-select-100 "
+            onClick={[Function]}
+          >
+            <fieldset
+              aria-hidden={true}
+              className="MuiPrivateNotchedOutline-root-144 MuiOutlinedInput-notchedOutline-121"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="MuiPrivateNotchedOutline-legend-145"
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+            <div
+              className="MuiSelect-root-107"
+            >
+              <div
+                aria-haspopup="true"
+                aria-pressed="false"
+                className="MuiSelect-select-108 MuiSelect-selectMenu-111 MuiInputBase-input-137 MuiOutlinedInput-input-122 MuiInputBase-inputMarginDense-138 MuiOutlinedInput-inputMarginDense-123"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Sort by: Price (High to Low)
+              </div>
+              <input
+                type="hidden"
+                value={2}
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-146 MuiSelect-icon-113"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 result-sort-container"
+  >
+    <div
+      className="car-registered-snackbar"
+    >
+      CarRegisteredSnackbar
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  >
+    <div />
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  >
+    <div
+      className="MuiFlatPagination-root-166 WithStyles-Pagination--root-159"
+      css=""
+    >
+      <button
+        className="MuiButtonBase-root-240 MuiButtonBase-disabled-241 MuiButton-root-214 MuiFlatPageButton-root-190 MuiFlatPageButton-rootEnd-193 MuiFlatPagination-rootEnd-169 WithStyles-Pagination--rootEnd-162 MuiButton-text-216 MuiFlatPageButton-text-196 MuiFlatPagination-text-172 MuiButton-flat-219 MuiButton-disabled-234 MuiFlatPageButton-disabled-202 MuiFlatPagination-disabled-178"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="-1"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-215 MuiFlatPageButton-label-195 MuiFlatPagination-label-171"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-146"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root-240 MuiButton-root-214 MuiFlatPageButton-root-190 MuiFlatPageButton-rootCurrent-191 MuiFlatPagination-rootCurrent-167 WithStyles-Pagination--rootCurrent-161 MuiButton-text-216 MuiFlatPageButton-text-196 MuiFlatPagination-text-172 MuiButton-textSecondary-218 MuiFlatPageButton-textSecondary-198 MuiFlatPagination-textSecondary-174 WithStyles-Pagination--textSecondary-165 MuiButton-flat-219 MuiButton-flatSecondary-221"
+        disabled={false}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-215 MuiFlatPageButton-label-195 MuiFlatPagination-label-171"
+        >
+          1
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root-240 MuiButtonBase-disabled-241 MuiButton-root-214 MuiFlatPageButton-root-190 MuiFlatPageButton-rootEnd-193 MuiFlatPagination-rootEnd-169 WithStyles-Pagination--rootEnd-162 MuiButton-text-216 MuiFlatPageButton-text-196 MuiFlatPagination-text-172 MuiButton-flat-219 MuiButton-disabled-234 MuiFlatPageButton-disabled-202 MuiFlatPagination-disabled-178"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="-1"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-215 MuiFlatPageButton-label-195 MuiFlatPagination-label-171"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-146"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

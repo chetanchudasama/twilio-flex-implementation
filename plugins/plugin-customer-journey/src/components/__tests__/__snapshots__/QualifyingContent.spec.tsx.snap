@@ -1,0 +1,864 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QualifyingContent renders correctly 1`] = `
+<div
+  className="css-1r11kwh"
+>
+  <div>
+    <div>
+      <div>
+        <h6
+          className="MuiTypography-root-1 MuiTypography-h6-18 headers"
+          id="please-confirm-header"
+        >
+          Please confirm below details
+        </h6>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Does the customer have a valid full UK driving license?
+            </p>
+          </div>
+          <div>
+            <div
+              className="Three-State-Toggle-Button"
+            />
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Is the address on the customer's driving licence on this application?
+            </p>
+          </div>
+          <div>
+            <div
+              className="Three-State-Toggle-Button"
+            />
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11 income-text"
+            >
+              Is the customer's monthly net income £0?
+            </p>
+          </div>
+          <div>
+            <div
+              className="Three-State-Toggle-Button"
+            />
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Is the customer employed full-time?
+            </p>
+          </div>
+          <div>
+            <div
+              className="Three-State-Toggle-Button"
+            />
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Reason for car purchase?
+            </p>
+          </div>
+          <div>
+            <div
+              className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select"
+            >
+              <div
+                className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 "
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-89"
+                    style={
+                      Object {
+                        "width": 0,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <div
+                  className="MuiSelect-root-51"
+                >
+                  <div
+                    aria-haspopup="true"
+                    aria-pressed="false"
+                    className="MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <em>
+                      Select reason
+                    </em>
+                  </div>
+                  <input
+                    type="hidden"
+                    value={-1}
+                  />
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-90 MuiSelect-icon-57"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Time for purchase?
+            </p>
+          </div>
+          <div>
+            <div
+              className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select"
+            >
+              <div
+                className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 "
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-89"
+                    style={
+                      Object {
+                        "width": 0,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <div
+                  className="MuiSelect-root-51"
+                >
+                  <div
+                    aria-haspopup="true"
+                    aria-pressed="false"
+                    className="MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <em>
+                      Select time
+                    </em>
+                  </div>
+                  <input
+                    type="hidden"
+                    value={-1}
+                  />
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-90 MuiSelect-icon-57"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              How did they hear about us?
+            </p>
+          </div>
+          <div>
+            <div
+              className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select"
+            >
+              <div
+                className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 "
+                onClick={[Function]}
+              >
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                  style={
+                    Object {
+                      "paddingLeft": 8,
+                    }
+                  }
+                >
+                  <legend
+                    className="MuiPrivateNotchedOutline-legend-89"
+                    style={
+                      Object {
+                        "width": 0,
+                      }
+                    }
+                  >
+                    <span
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "&#8203;",
+                        }
+                      }
+                    />
+                  </legend>
+                </fieldset>
+                <div
+                  className="MuiSelect-root-51"
+                >
+                  <div
+                    aria-haspopup="true"
+                    aria-pressed="false"
+                    className="MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <em>
+                      Select option
+                    </em>
+                  </div>
+                  <input
+                    type="hidden"
+                    value={-1}
+                  />
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-90 MuiSelect-icon-57"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <p
+              className="MuiTypography-root-1 MuiTypography-caption-11"
+            >
+              Has the customer already found a car?
+            </p>
+          </div>
+          <div>
+            <div
+              className="Three-State-Toggle-Button"
+            />
+          </div>
+          <div>
+            <hr
+              className="MuiDivider-root-37"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div
+              className="MuiPaper-root-107 MuiPaper-elevation1-110 MuiPaper-rounded-108 MuiExpansionPanel-root-103 MuiExpansionPanel-rounded-104"
+            >
+              <div
+                aria-expanded={false}
+                className="MuiButtonBase-root-140 MuiExpansionPanelSummary-root-134 expansion-panel-summary"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                <div
+                  className="MuiExpansionPanelSummary-content-138"
+                >
+                  <h6
+                    className="MuiTypography-root-1 MuiTypography-h6-18"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-calculator fa-w-14"
+                      data-icon="calculator"
+                      data-prefix="fas"
+                      focusable="false"
+                      height="14px"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      width="14px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zM128 435.2c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8V268.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v166.4zm0-256c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8V76.8C64 70.4 70.4 64 76.8 64h294.4c6.4 0 12.8 6.4 12.8 12.8v102.4z"
+                        fill="#000"
+                        opacity="0.8"
+                      />
+                    </svg>
+                    <span>
+                      Loan Calculator
+                    </span>
+                  </h6>
+                </div>
+                <div
+                  aria-hidden="true"
+                  className="MuiButtonBase-root-140 MuiIconButton-root-143 MuiExpansionPanelSummary-expandIcon-139"
+                  onBlur={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  role="button"
+                  tabIndex={-1}
+                >
+                  <span
+                    className="MuiIconButton-label-148"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-90"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-198"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className="MuiCollapse-container-149"
+                style={
+                  Object {
+                    "minHeight": "0px",
+                  }
+                }
+              >
+                <div
+                  className="MuiCollapse-wrapper-151"
+                >
+                  <div
+                    className="MuiCollapse-wrapperInner-152"
+                  >
+                    <div
+                      className="MuiExpansionPanelDetails-root-153 expansion-panel-details"
+                    >
+                      <div>
+                        <div>
+                          <div
+                            className="MuiFormControl-root-47 MuiFormControl-fullWidth-50"
+                          >
+                            <div
+                              className="MuiFormGroup-root-154 MuiFormGroup-row-155 radio-group"
+                              role="radiogroup"
+                            >
+                              <label
+                                className="MuiFormControlLabel-root-156"
+                              >
+                                <span
+                                  className="MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 MuiPrivateSwitchBase-checked-168 MuiRadio-checked-163 radio-btn"
+                                  onBlur={[Function]}
+                                  onContextMenu={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <span
+                                    className="MuiIconButton-label-148"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      className="MuiSvgIcon-root-90"
+                                      focusable="false"
+                                      role="presentation"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                                      />
+                                    </svg>
+                                    <input
+                                      checked={true}
+                                      className="MuiPrivateSwitchBase-input-170"
+                                      disabled={false}
+                                      onChange={[Function]}
+                                      type="radio"
+                                      value="MonthlyRepayment"
+                                    />
+                                  </span>
+                                  <span
+                                    className="MuiTouchRipple-root-198"
+                                  />
+                                </span>
+                                <span
+                                  className="MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161"
+                                >
+                                  Monthly repayment
+                                </span>
+                              </label>
+                              <label
+                                className="MuiFormControlLabel-root-156"
+                              >
+                                <span
+                                  className="MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 radio-btn"
+                                  onBlur={[Function]}
+                                  onContextMenu={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={null}
+                                >
+                                  <span
+                                    className="MuiIconButton-label-148"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      className="MuiSvgIcon-root-90"
+                                      focusable="false"
+                                      role="presentation"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                                      />
+                                    </svg>
+                                    <input
+                                      checked={false}
+                                      className="MuiPrivateSwitchBase-input-170"
+                                      disabled={false}
+                                      onChange={[Function]}
+                                      type="radio"
+                                      value="LoanAmount"
+                                    />
+                                  </span>
+                                  <span
+                                    className="MuiTouchRipple-root-198"
+                                  />
+                                </span>
+                                <span
+                                  className="MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161"
+                                >
+                                  Loan amount
+                                </span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div
+                            className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input"
+                          >
+                            <label
+                              className="MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label"
+                              data-shrink={true}
+                            >
+                              Monthly Repayment
+                            </label>
+                            <div
+                              className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedStart-75 MuiOutlinedInput-adornedStart-61 CustomInputContent-input-173 "
+                              onClick={[Function]}
+                            >
+                              <fieldset
+                                aria-hidden={true}
+                                className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                                style={
+                                  Object {
+                                    "paddingLeft": 8,
+                                  }
+                                }
+                              >
+                                <legend
+                                  className="MuiPrivateNotchedOutline-legend-89"
+                                  style={
+                                    Object {
+                                      "width": 0,
+                                    }
+                                  }
+                                >
+                                  <span
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "&#8203;",
+                                      }
+                                    }
+                                  />
+                                </legend>
+                              </fieldset>
+                              <div
+                                className="MuiInputAdornment-root-193 MuiInputAdornment-positionStart-195"
+                              >
+                                <p
+                                  className="MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34"
+                                >
+                                  £
+                                </p>
+                              </div>
+                              <input
+                                aria-invalid={false}
+                                className="MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedStart-86 MuiOutlinedInput-inputAdornedStart-69"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                required={false}
+                                type="text"
+                                value="0"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-input"
+                          >
+                            <label
+                              className="MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomSelectContent-label-43 input-label"
+                              data-shrink={true}
+                            >
+                              Term
+                            </label>
+                            <div
+                              className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-selectWithLabel-45 "
+                              onClick={[Function]}
+                            >
+                              <fieldset
+                                aria-hidden={true}
+                                className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                                style={
+                                  Object {
+                                    "paddingLeft": 8,
+                                  }
+                                }
+                              >
+                                <legend
+                                  className="MuiPrivateNotchedOutline-legend-89"
+                                  style={
+                                    Object {
+                                      "width": 0,
+                                    }
+                                  }
+                                >
+                                  <span
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "&#8203;",
+                                      }
+                                    }
+                                  />
+                                </legend>
+                              </fieldset>
+                              <div
+                                className="MuiSelect-root-51"
+                              >
+                                <div
+                                  aria-haspopup="true"
+                                  aria-pressed="false"
+                                  className="MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67"
+                                  id="select-Term"
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="button"
+                                  tabIndex={0}
+                                >
+                                  Select a term
+                                </div>
+                                <input
+                                  name="Term"
+                                  type="hidden"
+                                  value={-1}
+                                />
+                                <svg
+                                  aria-hidden="true"
+                                  className="MuiSvgIcon-root-90 MuiSelect-icon-57"
+                                  focusable="false"
+                                  role="presentation"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M7 10l5 5 5-5z"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input"
+                          >
+                            <label
+                              className="MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label"
+                              data-shrink={true}
+                            >
+                              APR
+                            </label>
+                            <div
+                              className="MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedEnd-76 MuiOutlinedInput-adornedEnd-62 CustomInputContent-input-173 "
+                              onClick={[Function]}
+                            >
+                              <fieldset
+                                aria-hidden={true}
+                                className="MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65"
+                                style={
+                                  Object {
+                                    "paddingLeft": 8,
+                                  }
+                                }
+                              >
+                                <legend
+                                  className="MuiPrivateNotchedOutline-legend-89"
+                                  style={
+                                    Object {
+                                      "width": 0,
+                                    }
+                                  }
+                                >
+                                  <span
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "&#8203;",
+                                      }
+                                    }
+                                  />
+                                </legend>
+                              </fieldset>
+                              <input
+                                aria-invalid={false}
+                                className="MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedEnd-87 MuiOutlinedInput-inputAdornedEnd-70"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                required={false}
+                                type="text"
+                                value="0"
+                              />
+                              <div
+                                className="MuiInputAdornment-root-193 MuiInputAdornment-positionEnd-196"
+                              >
+                                <p
+                                  className="MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34"
+                                >
+                                  %
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <div>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-label"
+                              >
+                                Loan amount
+                              </p>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-value"
+                              >
+                                --
+                              </p>
+                            </div>
+                            <div>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-label"
+                              >
+                                Total cost of credit
+                              </p>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-value"
+                              >
+                                --
+                              </p>
+                            </div>
+                            <div>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-label"
+                              >
+                                Total amount repayable
+                              </p>
+                              <p
+                                className="MuiTypography-root-1 MuiTypography-body2-9 result-value"
+                              >
+                                --
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QualifyingContent should not render error message, if calculated loan amount is less than maxLendAmount 1`] = `"<div class=\\"css-1r11kwh\\"><div><div><div><h6 class=\\"MuiTypography-root-1 MuiTypography-h6-18 headers\\" id=\\"please-confirm-header\\">Please confirm below details</h6></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Does the customer have a valid full UK driving license?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Is the address on the customer's driving licence on this application?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11 income-text\\">Is the customer's monthly net income £0?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Is the customer employed full-time?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Reason for car purchase?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select reason</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Time for purchase?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select time</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">How did they hear about us?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select option</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Has the customer already found a car?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><div class=\\"MuiPaper-root-107 MuiPaper-elevation1-110 MuiPaper-rounded-108 MuiExpansionPanel-root-103 MuiExpansionPanel-rounded-104\\"><div class=\\"MuiButtonBase-root-140 MuiExpansionPanelSummary-root-134 expansion-panel-summary\\" tabindex=\\"0\\" role=\\"button\\" aria-expanded=\\"false\\"><div class=\\"MuiExpansionPanelSummary-content-138\\"><h6 class=\\"MuiTypography-root-1 MuiTypography-h6-18\\"><svg aria-hidden=\\"true\\" focusable=\\"false\\" data-prefix=\\"fas\\" data-icon=\\"calculator\\" class=\\"svg-inline--fa fa-calculator fa-w-14\\" role=\\"img\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 448 512\\" width=\\"14px\\" height=\\"14px\\"><path fill=\\"#000\\" d=\\"M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zM128 435.2c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8V268.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v166.4zm0-256c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8V76.8C64 70.4 70.4 64 76.8 64h294.4c6.4 0 12.8 6.4 12.8 12.8v102.4z\\" opacity=\\"0.8\\"></path></svg><span>Loan Calculator</span></h6></div><div class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiExpansionPanelSummary-expandIcon-139\\" tabindex=\\"-1\\" role=\\"button\\" aria-hidden=\\"true\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z\\"></path><path fill=\\"none\\" d=\\"M0 0h24v24H0z\\"></path></svg></span><span class=\\"MuiTouchRipple-root-198\\"></span></div></div><div class=\\"MuiCollapse-container-149\\" style=\\"min-height: 0px;\\" aria-hidden=\\"true\\"><div class=\\"MuiCollapse-wrapper-151\\"><div class=\\"MuiCollapse-wrapperInner-152\\"><div class=\\"MuiExpansionPanelDetails-root-153 expansion-panel-details\\"><div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-fullWidth-50\\"><div class=\\"MuiFormGroup-root-154 MuiFormGroup-row-155 radio-group\\" role=\\"radiogroup\\"><label class=\\"MuiFormControlLabel-root-156\\"><span class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 MuiPrivateSwitchBase-checked-168 MuiRadio-checked-163 radio-btn\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\\"></path></svg><input class=\\"MuiPrivateSwitchBase-input-170\\" type=\\"radio\\" value=\\"MonthlyRepayment\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-198\\"></span></span><span class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161\\">Monthly repayment</span></label><label class=\\"MuiFormControlLabel-root-156\\"><span class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 radio-btn\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\\"></path></svg><input class=\\"MuiPrivateSwitchBase-input-170\\" type=\\"radio\\" value=\\"LoanAmount\\"></span><span class=\\"MuiTouchRipple-root-198\\"></span></span><span class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161\\">Loan amount</span></label></div></div></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label\\" data-shrink=\\"true\\">Monthly Repayment</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedStart-75 MuiOutlinedInput-adornedStart-61 CustomInputContent-input-173 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiInputAdornment-root-193 MuiInputAdornment-positionStart-195\\"><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34\\">£</p></div><input aria-invalid=\\"false\\" class=\\"MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedStart-86 MuiOutlinedInput-inputAdornedStart-69\\" type=\\"text\\" value=\\"50\\"></div></div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomSelectContent-label-43 input-label\\" data-shrink=\\"true\\">Term</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-selectWithLabel-45 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\" id=\\"select-Term\\">36 months</div><input name=\\"Term\\" type=\\"hidden\\" value=\\"36\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label\\" data-shrink=\\"true\\">APR</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedEnd-76 MuiOutlinedInput-adornedEnd-62 CustomInputContent-input-173 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><input aria-invalid=\\"false\\" class=\\"MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedEnd-87 MuiOutlinedInput-inputAdornedEnd-70\\" type=\\"text\\" value=\\"6\\"><div class=\\"MuiInputAdornment-root-193 MuiInputAdornment-positionEnd-196\\"><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34\\">%</p></div></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Loan amount</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-value\\">£1,908</p></div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Total cost of credit</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-value\\">£3.18</p></div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Total amount repayable</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-value\\">£1,911.18</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>"`;
+
+exports[`QualifyingContent should render error message, if calculated loan amount is greater than maxLendAmount 1`] = `"<div class=\\"css-1r11kwh\\"><div><div><div><h6 class=\\"MuiTypography-root-1 MuiTypography-h6-18 headers\\" id=\\"please-confirm-header\\">Please confirm below details</h6></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Does the customer have a valid full UK driving license?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Is the address on the customer's driving licence on this application?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11 income-text\\">Is the customer's monthly net income £0?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Is the customer employed full-time?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Reason for car purchase?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select reason</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Time for purchase?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select time</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">How did they hear about us?</p></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-width-select\\"><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-select-44 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\"><em>Select option</em></div><input type=\\"hidden\\" value=\\"-1\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-caption-11\\">Has the customer already found a car?</p></div><div><div class=\\"Three-State-Toggle-Button\\"></div></div><div><hr class=\\"MuiDivider-root-37\\"></div></div></div><div><div><div><div class=\\"MuiPaper-root-107 MuiPaper-elevation1-110 MuiPaper-rounded-108 MuiExpansionPanel-root-103 MuiExpansionPanel-rounded-104\\"><div class=\\"MuiButtonBase-root-140 MuiExpansionPanelSummary-root-134 expansion-panel-summary\\" tabindex=\\"0\\" role=\\"button\\" aria-expanded=\\"false\\"><div class=\\"MuiExpansionPanelSummary-content-138\\"><h6 class=\\"MuiTypography-root-1 MuiTypography-h6-18\\"><svg aria-hidden=\\"true\\" focusable=\\"false\\" data-prefix=\\"fas\\" data-icon=\\"calculator\\" class=\\"svg-inline--fa fa-calculator fa-w-14\\" role=\\"img\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 448 512\\" width=\\"14px\\" height=\\"14px\\"><path fill=\\"#000\\" d=\\"M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zM128 435.2c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8V268.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v166.4zm0-256c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8V76.8C64 70.4 70.4 64 76.8 64h294.4c6.4 0 12.8 6.4 12.8 12.8v102.4z\\" opacity=\\"0.8\\"></path></svg><span>Loan Calculator</span></h6></div><div class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiExpansionPanelSummary-expandIcon-139\\" tabindex=\\"-1\\" role=\\"button\\" aria-hidden=\\"true\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z\\"></path><path fill=\\"none\\" d=\\"M0 0h24v24H0z\\"></path></svg></span><span class=\\"MuiTouchRipple-root-198\\"></span></div></div><div class=\\"MuiCollapse-container-149\\" style=\\"min-height: 0px;\\" aria-hidden=\\"true\\"><div class=\\"MuiCollapse-wrapper-151\\"><div class=\\"MuiCollapse-wrapperInner-152\\"><div class=\\"MuiExpansionPanelDetails-root-153 expansion-panel-details\\"><div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-fullWidth-50\\"><div class=\\"MuiFormGroup-root-154 MuiFormGroup-row-155 radio-group\\" role=\\"radiogroup\\"><label class=\\"MuiFormControlLabel-root-156\\"><span class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 MuiPrivateSwitchBase-checked-168 MuiRadio-checked-163 radio-btn\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\\"></path></svg><input class=\\"MuiPrivateSwitchBase-input-170\\" type=\\"radio\\" value=\\"MonthlyRepayment\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-198\\"></span></span><span class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161\\">Monthly repayment</span></label><label class=\\"MuiFormControlLabel-root-156\\"><span class=\\"MuiButtonBase-root-140 MuiIconButton-root-143 MuiPrivateSwitchBase-root-167 MuiRadio-root-162 MuiRadio-colorSecondary-166 radio-btn\\"><span class=\\"MuiIconButton-label-148\\"><svg class=\\"MuiSvgIcon-root-90\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\\"></path></svg><input class=\\"MuiPrivateSwitchBase-input-170\\" type=\\"radio\\" value=\\"LoanAmount\\"></span><span class=\\"MuiTouchRipple-root-198\\"></span></span><span class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiFormControlLabel-label-161\\">Loan amount</span></label></div></div></div><div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label\\" data-shrink=\\"true\\">Monthly Repayment</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedStart-75 MuiOutlinedInput-adornedStart-61 CustomInputContent-input-173 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiInputAdornment-root-193 MuiInputAdornment-positionStart-195\\"><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34\\">£</p></div><input aria-invalid=\\"false\\" class=\\"MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedStart-86 MuiOutlinedInput-inputAdornedStart-69\\" type=\\"text\\" value=\\"200\\"></div></div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomSelectContent-formControl-42 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomSelectContent-label-43 input-label\\" data-shrink=\\"true\\">Term</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 CustomSelectContent-selectWithLabel-45 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><div class=\\"MuiSelect-root-51\\"><div class=\\"MuiSelect-select-52 MuiSelect-selectMenu-55 MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67\\" aria-pressed=\\"false\\" tabindex=\\"0\\" role=\\"button\\" aria-haspopup=\\"true\\" id=\\"select-Term\\">48 months</div><input name=\\"Term\\" type=\\"hidden\\" value=\\"48\\"><svg class=\\"MuiSvgIcon-root-90 MuiSelect-icon-57\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path d=\\"M7 10l5 5 5-5z\\"></path></svg></div></div></div><div class=\\"MuiFormControl-root-47 MuiFormControl-marginDense-49 MuiFormControl-fullWidth-50 CustomInputContent-formControl-171 custom-input\\"><label class=\\"MuiFormLabel-root-186 MuiFormLabel-filled-190 MuiInputLabel-root-175 MuiInputLabel-formControl-180 MuiInputLabel-animated-183 MuiInputLabel-shrink-182 MuiInputLabel-marginDense-181 CustomInputContent-label-172 input-label\\" data-shrink=\\"true\\">APR</label><div class=\\"MuiInputBase-root-71 MuiOutlinedInput-root-58 MuiInputBase-formControl-72 MuiInputBase-marginDense-78 MuiInputBase-adornedEnd-76 MuiOutlinedInput-adornedEnd-62 CustomInputContent-input-173 \\"><fieldset aria-hidden=\\"true\\" style=\\"padding-left: 8px;\\" class=\\"MuiPrivateNotchedOutline-root-88 MuiOutlinedInput-notchedOutline-65\\"><legend class=\\"MuiPrivateNotchedOutline-legend-89\\" style=\\"width: 0px;\\"><span>​</span></legend></fieldset><input aria-invalid=\\"false\\" class=\\"MuiInputBase-input-81 MuiOutlinedInput-input-66 MuiInputBase-inputMarginDense-82 MuiOutlinedInput-inputMarginDense-67 MuiInputBase-inputAdornedEnd-87 MuiOutlinedInput-inputAdornedEnd-70\\" type=\\"text\\" value=\\"6\\"><div class=\\"MuiInputAdornment-root-193 MuiInputAdornment-positionEnd-196\\"><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorTextSecondary-34\\">%</p></div></div></div></div><div><div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Loan amount</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiTypography-colorError-35 result-value\\">£10,176</p></div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Total cost of credit</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-value\\">£12.72</p></div><div><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-label\\">Total amount repayable</p><p class=\\"MuiTypography-root-1 MuiTypography-body2-9 result-value\\">£10,188.72</p></div><div><div><div class=\\"MuiTypography-root-1 MuiTypography-body2-9 MuiPaper-root-107 MuiPaper-elevation6-115 MuiSnackbarContent-root-218 CustomSnackbarContent-snackbarContainer-206 CustomSnackbarContent-error-213 loan-calculator-error\\" role=\\"alertdialog\\"><div class=\\"MuiSnackbarContent-message-219\\"><span class=\\"CustomSnackbarContent-message-208\\"><svg class=\\"MuiSvgIcon-root-90 CustomSnackbarContent-icon-210 CustomSnackbarContent-iconVariant-209\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" role=\\"presentation\\"><path fill=\\"none\\" d=\\"M0 0h24v24H0z\\"></path><path d=\\"M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z\\"></path></svg>This exceeds customer's maximum borrow amount by £9,676</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>"`;

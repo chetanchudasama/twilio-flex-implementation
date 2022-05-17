@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentNotes renders correctly on load 1`] = `
+<div
+  className="css-1cmugtl"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 note-title-container"
+  >
+    <div
+      className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+    >
+      <div
+        className="MuiGrid-item-2"
+      >
+        <p
+          className="MuiTypography-root-98 MuiTypography-caption-108 heading"
+        >
+          Recent Notes
+        </p>
+      </div>
+      <div
+        className="MuiGrid-item-2"
+      >
+        <button
+          className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-text-136 MuiButton-flat-139 note-btn view-note-btn"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-135"
+          >
+            View all notes
+          </span>
+          <span
+            className="MuiTouchRipple-root-163"
+          />
+        </button>
+        <button
+          className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-text-136 MuiButton-flat-139 note-btn"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-135"
+          >
+            Add note
+          </span>
+          <span
+            className="MuiTouchRipple-root-163"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  >
+    <div
+      className="MuiGrid-container-1"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 comment"
+      >
+        This is a test note
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 comment-detail"
+      >
+        <span
+          className="created-date"
+        >
+          08/09/21
+        </span>
+        <span>
+          User
+        </span>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+      >
+        <hr
+          className="MuiDivider-root-170 divider"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-container-1"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 comment"
+      >
+        Test note
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 comment-detail"
+      >
+        <span
+          className="created-date"
+        >
+          04/09/21
+        </span>
+        <span>
+          User
+        </span>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+      />
+    </div>
+  </div>
+</div>
+`;

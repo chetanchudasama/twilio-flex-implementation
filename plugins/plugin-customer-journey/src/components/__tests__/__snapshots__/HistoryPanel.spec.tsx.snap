@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryPanel renders correctly 1`] = `
+<div
+  className="css-1girgli"
+>
+  <div
+    className="heading"
+  >
+    HISTORY
+  </div>
+  <div
+    className="history-container"
+  >
+    <div
+      className="chat-container"
+      style={
+        Object {
+          "height": "100px",
+        }
+      }
+    >
+      <div
+        className="MuiChip-root-1 date-chip"
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        role="button"
+        tabIndex={-1}
+      >
+        <span
+          className="MuiChip-label-20"
+        >
+          Wednesday, June, 02, 2021
+        </span>
+      </div>
+      <div
+        className="customer-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-26 customer-icon-position"
+          >
+            description
+          </span>
+          Hello
+          
+          
+          
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+      <div
+        className="agent-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          Hey, thanks for reaching out. How may I help you today?
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-35 agent-icon-position"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2c0-4.97-4.03-9-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"
+            />
+          </svg>
+          
+          
+          
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+      <div
+        className="agent-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          Record opened, Dan Graham
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-26 agent-icon-position"
+          >
+            description
+          </span>
+          
+          
+          
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+      <div
+        className="agent-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          Sure sir, could you provide me with your driving licence please.
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-26 agent-icon-position"
+          >
+            description
+          </span>
+          <div
+            className="agent-audio-div"
+          >
+            <div
+              className="audio-player"
+            >
+              Audio-Player
+            </div>
+          </div>
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+      <div
+        className="customer-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-35 customer-icon-position"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          Here is my driving licence
+          <div
+            className="css-3r6203"
+          >
+            <img
+              alt=""
+              className="image-content"
+              src="abc.jpg"
+            />
+          </div>
+          <div
+            className="css-1e48p17"
+          >
+            <span
+              className="download-span"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-26 MuiIcon-fontSizeSmall-33 download-icon"
+              >
+                download
+              </span>
+              Download
+            </span>
+          </div>
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+      <div
+        className="agent-area"
+      >
+        <div
+          className="message-content-div"
+        >
+          Important Note
+          <div
+            className="document-div"
+          >
+            <span
+              aria-hidden="true"
+              className="material-icons MuiIcon-root-26 file-icon"
+            >
+              insert_drive_file
+            </span>
+            file.pdf
+            <div
+              className="css-1e48p17"
+            >
+              <span
+                className="download-span"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-26 MuiIcon-fontSizeSmall-33 download-icon"
+                >
+                  download
+                </span>
+                Download
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="time-stamp"
+        >
+          13:24
+        </div>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "height": "100px",
+        }
+      }
+    >
+      <div
+        className="css-hvu9xw"
+      >
+        <div
+          className="pinned-chat-container"
+          style={
+            Object {
+              "height": "100px",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-44 pinned-content"
+          >
+            <div
+              className="MuiGrid-item-45 MuiGrid-grid-xs-1-73"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-26 MuiIcon-fontSizeSmall-33 customer-icon-position"
+              >
+                check_circle
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-45 MuiGrid-grid-xs-10-82 message-content"
+            >
+              Important Note
+            </div>
+            <div
+              className="MuiGrid-item-45 MuiGrid-grid-xs-1-73"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-26 MuiIcon-fontSizeSmall-33 icon-close"
+                onClick={[Function]}
+              >
+                close
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="send-message-container"
+  >
+    <div
+      className="css-1jxatqe"
+    >
+      <div
+        className="MuiGrid-container-44"
+      >
+        <div
+          className="MuiGrid-item-45 MuiGrid-grid-xs-10-82 add-note-container"
+        >
+          <div
+            className="MuiGrid-item-45 MuiGrid-grid-xs-12-84"
+          >
+            <div
+              className="MuiFormControl-root-141 add-note-text-field"
+            >
+              <div
+                className="MuiInputBase-root-158 MuiInput-root-145 MuiInput-underline-149 MuiInputBase-formControl-159 MuiInput-formControl-146 MuiInputBase-multiline-166 MuiInput-multiline-151"
+                onClick={[Function]}
+              >
+                <textarea
+                  aria-invalid={false}
+                  className="MuiInputBase-input-168 MuiInput-input-153 MuiInputBase-inputMultiline-170 MuiInput-inputMultiline-155"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Add note"
+                  required={false}
+                  rows={3}
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-45 MuiGrid-grid-xs-12-84"
+          >
+            <div
+              className="MuiFormGroup-root-175 MuiFormGroup-row-176"
+            >
+              <label
+                className="MuiFormControlLabel-root-177 add-note-form-control"
+              >
+                <span
+                  className="MuiButtonBase-root-199 MuiIconButton-root-193 MuiPrivateSwitchBase-root-189 MuiCheckbox-root-183 MuiCheckbox-colorSecondary-188"
+                  onBlur={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-198"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-35 MuiSvgIcon-fontSizeSmall-42 checkbox"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiPrivateSwitchBase-input-192"
+                      data-indeterminate={false}
+                      name="Important"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-264"
+                  />
+                </span>
+                <span
+                  className="MuiTypography-root-202 MuiTypography-body2-210 MuiFormControlLabel-label-182"
+                >
+                  Important
+                </span>
+              </label>
+              <label
+                className="MuiFormControlLabel-root-177 add-note-form-control"
+              >
+                <span
+                  className="MuiButtonBase-root-199 MuiIconButton-root-193 MuiPrivateSwitchBase-root-189 MuiCheckbox-root-183 MuiCheckbox-colorSecondary-188"
+                  onBlur={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={null}
+                >
+                  <span
+                    className="MuiIconButton-label-198"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-35 MuiSvgIcon-fontSizeSmall-42 checkbox"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    <input
+                      checked={false}
+                      className="MuiPrivateSwitchBase-input-192"
+                      data-indeterminate={false}
+                      name="Share with broker"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-264"
+                  />
+                </span>
+                <span
+                  className="MuiTypography-root-202 MuiTypography-body2-210 MuiFormControlLabel-label-182"
+                >
+                  Share With Broker
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-45 MuiGrid-grid-xs-2-74"
+        >
+          <button
+            className="MuiButtonBase-root-199 MuiButtonBase-disabled-200 MuiButton-root-238 MuiButton-contained-249 MuiButton-containedPrimary-250 MuiButton-raised-252 MuiButton-raisedPrimary-253 MuiButton-disabled-258 send-btn  disable-btn"
+            disabled={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="-1"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-239"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-26 send-icon"
+              >
+                send
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

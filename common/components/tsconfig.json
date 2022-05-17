@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "outDir": "lib/esm",
+    "rootDir": "src",
+    "lib": ["ES2018", "DOM"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "lib/**/*"],
+  "references": []
+}

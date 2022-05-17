@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressHistory renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-1o0mgdm"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 address-history-header"
+    >
+      Address History
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 paper-container"
+    >
+      <div
+        className="MuiPaper-root-98 MuiPaper-elevation1-101 MuiPaper-rounded-99 paper"
+      >
+        <div
+          className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+          >
+            <p
+              className="MuiTypography-root-125 MuiTypography-body1-134 address-header"
+            >
+              Current Address
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-5st4sl"
+          >
+            <div
+              className="MuiCardHeader-root-161 card-header"
+            >
+              <div
+                className="MuiCardHeader-avatar-162"
+              >
+                <div
+                  className="MuiAvatar-root-167 MuiAvatar-colorDefault-168 icon"
+                  color="secondary"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-170 MuiSvgIcon-colorSecondary-172"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-164"
+              >
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiCardHeader-title-165"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line1"
+                  >
+                    114, Parsley, Parsley-9, 48 Bullwood Rd
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line2"
+                  >
+                    ST ARVANS, NP6 8RF
+                  </span>
+                </span>
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiTypography-colorTextSecondary-158 MuiCardHeader-subheader-166 subheader"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    Home Owner
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    2 years, 
+            27 months
+                  </span>
+                </span>
+              </div>
+              <div
+                className="MuiCardHeader-action-163"
+              >
+                <button
+                  className="MuiButtonBase-root-205 MuiButton-root-179 MuiButton-text-181 MuiButton-textSecondary-183 MuiButton-flat-184 MuiButton-flatSecondary-186 MuiButton-sizeSmall-202 edit-address-btn"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex="0"
+                  type="button"
+                >
+                  <span
+                    className="MuiButton-label-180"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-170 MuiSvgIcon-fontSizeSmall-177 edit-icon"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    Edit
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-213"
+                  />
+                </button>
+              </div>
+            </div>
+            <hr
+              className="MuiDivider-root-208 divider"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root-98 MuiPaper-elevation1-101 MuiPaper-rounded-99 paper"
+      >
+        <div
+          className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+          >
+            <p
+              className="MuiTypography-root-125 MuiTypography-body1-134 address-header"
+            >
+              Previous Addresses
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-5st4sl"
+          >
+            <div
+              className="MuiCardHeader-root-161 card-header"
+            >
+              <div
+                className="MuiCardHeader-avatar-162"
+              >
+                <div
+                  className="MuiAvatar-root-167 MuiAvatar-colorDefault-168 icon"
+                  color="secondary"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-170 MuiSvgIcon-colorSecondary-172"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-164"
+              >
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiCardHeader-title-165"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line1"
+                  >
+                    110, Grange, Grange-1, 43 Buckingham Rd
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line2"
+                  >
+                    THORNBY, NN6 2XS
+                  </span>
+                </span>
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiTypography-colorTextSecondary-158 MuiCardHeader-subheader-166 subheader"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    Tenant
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    1 years, 
+            12 months
+                  </span>
+                </span>
+              </div>
+              <div
+                className="MuiCardHeader-action-163"
+              >
+                <button
+                  className="MuiButtonBase-root-205 MuiButton-root-179 MuiButton-text-181 MuiButton-textSecondary-183 MuiButton-flat-184 MuiButton-flatSecondary-186 MuiButton-sizeSmall-202 edit-address-btn"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex="0"
+                  type="button"
+                >
+                  <span
+                    className="MuiButton-label-180"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-170 MuiSvgIcon-fontSizeSmall-177 edit-icon"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    Edit
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-213"
+                  />
+                </button>
+              </div>
+            </div>
+            <hr
+              className="MuiDivider-root-208 divider"
+            />
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-5st4sl"
+          >
+            <div
+              className="MuiCardHeader-root-161 card-header"
+            >
+              <div
+                className="MuiCardHeader-avatar-162"
+              >
+                <div
+                  className="MuiAvatar-root-167 MuiAvatar-colorDefault-168 icon"
+                  color="secondary"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-170 MuiSvgIcon-colorSecondary-172"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-164"
+              >
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiCardHeader-title-165"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line1"
+                  >
+                    112, Lilac, Lilac-3, 114 Long Street
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 address-content address-line2"
+                  >
+                    MILLINGTON, YO4 3XA
+                  </span>
+                </span>
+                <span
+                  className="MuiTypography-root-125 MuiTypography-body2-133 MuiTypography-colorTextSecondary-158 MuiCardHeader-subheader-166 subheader"
+                >
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    Private Tenant
+                  </span>
+                  <span
+                    className="MuiTypography-root-125 MuiTypography-body1-134 subheader-line"
+                  >
+                    0 years, 
+            11 months
+                  </span>
+                </span>
+              </div>
+              <div
+                className="MuiCardHeader-action-163"
+              >
+                <button
+                  className="MuiButtonBase-root-205 MuiButton-root-179 MuiButton-text-181 MuiButton-textSecondary-183 MuiButton-flat-184 MuiButton-flatSecondary-186 MuiButton-sizeSmall-202 edit-address-btn"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex="0"
+                  type="button"
+                >
+                  <span
+                    className="MuiButton-label-180"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root-170 MuiSvgIcon-fontSizeSmall-177 edit-icon"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    Edit
+                  </span>
+                  <span
+                    className="MuiTouchRipple-root-213"
+                  />
+                </button>
+              </div>
+            </div>
+            <hr
+              className="MuiDivider-root-208 divider"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 add-btn-container"
+    >
+      <button
+        className="MuiButtonBase-root-205 MuiButton-root-179 MuiButton-contained-190 MuiButton-containedSecondary-192 MuiButton-raised-193 MuiButton-raisedSecondary-195 add-address-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-180"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-170 MuiSvgIcon-fontSizeSmall-177 add-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          Add Address
+        </span>
+        <span
+          className="MuiTouchRipple-root-213"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

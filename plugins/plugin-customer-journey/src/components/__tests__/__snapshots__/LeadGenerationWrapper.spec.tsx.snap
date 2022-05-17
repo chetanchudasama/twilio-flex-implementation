@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeadGenerationWrapper renders correctly with props 1`] = `
+<div>
+  Lead Generation Content
+</div>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailActionWrapper renders correctly 1`] = `
+<div
+  className="MuiGrid-item-8 MuiGrid-grid-xs-12-47 CustomerDetailActionWrapperContent-root-1"
+>
+  <div
+    className="MuiGrid-container-7 MuiGrid-spacing-xs-16-30 MuiGrid-align-items-xs-center-15 MuiGrid-justify-xs-center-24"
+  >
+    <div
+      className="MuiGrid-item-8 MuiGrid-grid-xs-12-47 actionContainer CustomerDetailActionWrapperContent-actionContainer-5"
+    >
+      <button
+        className="MuiButtonBase-root-130 MuiButton-root-104 MuiButton-text-106 MuiButton-textSecondary-108 MuiButton-flat-109 MuiButton-flatSecondary-111 CustomerDetailActionWrapperContent-previousButton-3"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-105"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-133 CustomerDetailActionWrapperContent-arrowBackBtn-4"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          Back: 
+        </span>
+        <span
+          className="MuiTouchRipple-root-142"
+        />
+      </button>
+    </div>
+    <div
+      className="MuiGrid-item-8 MuiGrid-grid-xs-12-47 CustomerDetailActionWrapperContent-content-2"
+      style={
+        Object {
+          "height": "fit-content",
+        }
+      }
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerName renders correctly on load 1`] = `
+<div
+  className="css-1lqaj41"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 heading"
+    >
+      Customer name
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 customer-name-toggle"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+      >
+        <div
+          className="MuiGrid-item-2"
+        >
+          <p
+            className="MuiTypography-root-98 MuiTypography-caption-108"
+          >
+            How does the customer like to be addressed?
+          </p>
+        </div>
+        <div
+          className="MuiGrid-item-2"
+        >
+          <div
+            className="MuiToggleButtonGroup-root-134 MuiToggleButtonGroup-selected-135 root"
+          >
+            <button
+              className="MuiButtonBase-root-140 MuiToggleButton-root-136 MuiToggleButton-selected-138 button label btn-full-name selected"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
+              value={0}
+            >
+              <span
+                className="MuiToggleButton-label-139"
+              >
+                Full Name
+              </span>
+              <span
+                className="MuiTouchRipple-root-143"
+              />
+            </button>
+            <button
+              className="MuiButtonBase-root-140 MuiToggleButton-root-136 button label btn-first-name "
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
+              value={1}
+            >
+              <span
+                className="MuiToggleButton-label-139"
+              >
+                First Name
+              </span>
+              <span
+                className="MuiTouchRipple-root-143"
+              />
+            </button>
+            <button
+              className="MuiButtonBase-root-140 MuiToggleButton-root-136 button label btn-other "
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
+              value={2}
+            >
+              <span
+                className="MuiToggleButton-label-139"
+              >
+                Other
+              </span>
+              <span
+                className="MuiTouchRipple-root-143"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleImage renders correctly on load 1`] = `
+<div
+  className="css-jk2enx"
+  onClick={[Function]}
+>
+  <img
+    alt=""
+    className="vehicle-img"
+    src="ImageUrl"
+  />
+  <div
+    className="image-count"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 icon"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <circle
+        cx="12"
+        cy="12"
+        r="3.2"
+      />
+      <path
+        d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"
+      />
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+    </svg>
+    1
+  </div>
+</div>
+`;
+
+exports[`VehicleImage when value of image prop is null, should render Car not found image icon 1`] = `
+<div
+  className="css-jk2enx"
+  onClick={[Function]}
+>
+  <div
+    className="image-missing"
+  >
+    <div
+      className="car-not-found"
+    >
+      Car not found
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallbackDialog renders correctly 1`] = `
+<div
+  className="css-1k3gdne"
+>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+  >
+    <div>
+      Date Picker
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 reason-field"
+  >
+    <div
+      className="MuiFormControl-root-98 MuiFormControl-fullWidth-101"
+    >
+      <label
+        className="MuiFormLabel-root-113 MuiFormLabel-required-118 MuiInputLabel-required-106 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+        data-shrink={false}
+      >
+        Reason for call
+        <span
+          className="MuiFormLabel-asterisk-119"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121 MuiInputBase-multiline-141 MuiInput-multiline-126"
+        onClick={[Function]}
+      >
+        <textarea
+          aria-invalid={false}
+          className="MuiInputBase-input-143 MuiInput-input-128 MuiInputBase-inputMultiline-145 MuiInput-inputMultiline-130"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          rows={3}
+          value=""
+        />
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;

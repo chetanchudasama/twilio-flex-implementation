@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WizardStepWrapper renders correctly 1`] = `
+<div
+  className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-root-1"
+>
+  <div
+    className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-center-25"
+  >
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-content-2"
+      style={
+        Object {
+          "height": "fit-content",
+        }
+      }
+    />
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 actionContainer WizardStepWrapperContent-actionContainer-7"
+    >
+      <div
+        className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-space-between-27"
+      >
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButton-root-105 MuiButton-text-107 MuiButton-textSecondary-109 MuiButton-flat-110 MuiButton-flatSecondary-112 WizardStepWrapperContent-previousButton-4"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowBackBtn-5"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              Previous: Previous Step
+            </span>
+            <span
+              className="MuiTouchRipple-root-143"
+            />
+          </button>
+        </div>
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButton-root-105 MuiButton-contained-116 MuiButton-containedSecondary-118 MuiButton-raised-119 MuiButton-raisedSecondary-121 WizardStepWrapperContent-nextButton-3"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              Next: Next Step
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowForwardBtn-6"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+            <span
+              className="MuiTouchRipple-root-143"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WizardStepWrapper when action is set hidden, it should render correctly 1`] = `
+<div
+  className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-root-1"
+>
+  <div
+    className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-center-25"
+  >
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-content-2"
+      style={
+        Object {
+          "height": "fit-content",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`WizardStepWrapper when next button is disabled, it should render correctly 1`] = `
+<div
+  className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-root-1"
+>
+  <div
+    className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-center-25"
+  >
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-content-2"
+      style={
+        Object {
+          "height": "fit-content",
+        }
+      }
+    />
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 actionContainer WizardStepWrapperContent-actionContainer-7"
+    >
+      <div
+        className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-space-between-27"
+      >
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButton-root-105 MuiButton-text-107 MuiButton-textSecondary-109 MuiButton-flat-110 MuiButton-flatSecondary-112 WizardStepWrapperContent-previousButton-4"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowBackBtn-5"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              Previous: Previous Step
+            </span>
+            <span
+              className="MuiTouchRipple-root-143"
+            />
+          </button>
+        </div>
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButtonBase-disabled-132 MuiButton-root-105 MuiButton-contained-116 MuiButton-containedSecondary-118 MuiButton-raised-119 MuiButton-raisedSecondary-121 MuiButton-disabled-125 WizardStepWrapperContent-nextButton-3"
+            disabled={true}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="-1"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              Next
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowForwardBtn-6"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WizardStepWrapper when previous button is disabled, it should render correctly 1`] = `
+<div
+  className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-root-1"
+>
+  <div
+    className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-center-25"
+  >
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 WizardStepWrapperContent-content-2"
+      style={
+        Object {
+          "height": "fit-content",
+        }
+      }
+    />
+    <div
+      className="MuiGrid-item-9 MuiGrid-grid-xs-12-48 actionContainer WizardStepWrapperContent-actionContainer-7"
+    >
+      <div
+        className="MuiGrid-container-8 MuiGrid-spacing-xs-16-31 MuiGrid-align-items-xs-center-16 MuiGrid-justify-xs-space-between-27"
+      >
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButtonBase-disabled-132 MuiButton-root-105 MuiButton-text-107 MuiButton-textSecondary-109 MuiButton-flat-110 MuiButton-flatSecondary-112 MuiButton-disabled-125 WizardStepWrapperContent-previousButton-4"
+            disabled={true}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="-1"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowBackBtn-5"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              Previous
+            </span>
+          </button>
+        </div>
+        <div
+          className="MuiGrid-item-9"
+        >
+          <button
+            className="MuiButtonBase-root-131 MuiButton-root-105 MuiButton-contained-116 MuiButton-containedSecondary-118 MuiButton-raised-119 MuiButton-raisedSecondary-121 WizardStepWrapperContent-nextButton-3"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-106"
+            >
+              Next: Next Step
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-134 WizardStepWrapperContent-arrowForwardBtn-6"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+            <span
+              className="MuiTouchRipple-root-143"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

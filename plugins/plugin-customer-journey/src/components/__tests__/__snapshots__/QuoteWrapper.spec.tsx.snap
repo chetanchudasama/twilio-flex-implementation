@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteWrapper renders correctly, with props 1`] = `
+<div
+  className="css-8ton2x"
+>
+  <div>
+    <button
+      className="onNext"
+      onClick={[Function]}
+      type="button"
+    >
+      onNext
+    </button>
+    <button
+      className="onPrevious"
+      onClick={[Function]}
+      type="button"
+    >
+      onPrevious
+    </button>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuoteWrapper renders correctly, without any props 1`] = `
+<div
+  className="css-8ton2x"
+>
+  <div>
+    <button
+      className="onNext"
+      onClick={[Function]}
+      type="button"
+    >
+      onNext
+    </button>
+    <button
+      className="onPrevious"
+      onClick={[Function]}
+      type="button"
+    >
+      onPrevious
+    </button>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

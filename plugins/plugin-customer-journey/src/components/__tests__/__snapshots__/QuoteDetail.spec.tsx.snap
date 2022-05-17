@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteDetail renders correctly 1`] = `
+<div
+  className="css-dqpszj"
+>
+  <div
+    className="MuiGrid-container-1 secondary-border"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 secondary-background"
+    >
+      <span
+        className="quote-saved-date"
+      >
+        Saved 01/07/2021 05:30
+      </span>
+      <span
+        className="quote-accepted-msg"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-98 check-icon"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          />
+        </svg>
+         Approved by 247 Money
+      </span>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-5-34 car-detail-container"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 vehicle-img-container"
+        >
+          <div
+            className="css-1epo2pu"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="vehicle-img"
+              src="Image"
+            />
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 car-model"
+        >
+          Land Rover
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <ul
+            className="car-specification car-detail"
+          >
+            <li>
+              Discovery Sport
+            </li>
+            <li>
+              Beige
+            </li>
+            <li>
+              5
+              dr
+            </li>
+          </ul>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <ul
+            className="car-specification"
+          >
+            <li>
+              13,050 miles
+            </li>
+            <li>
+              ST17XYZ
+            </li>
+            <li>
+              2011
+            </li>
+            <li>
+              Manual
+            </li>
+            <li>
+              Diesel Hybrid
+            </li>
+          </ul>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 view-more-detail"
+        >
+          <button
+            className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-text-109 MuiButton-flat-112 view-more-detail-link"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-108"
+            >
+              View More Detail
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-3-32 spec-container"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-title"
+        >
+          Car Value
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-value"
+        >
+          £110,000
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-title"
+        >
+          Deposit
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-value"
+        >
+          £10,000
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-title"
+        >
+          Part Exchange
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-value"
+        >
+          £1,600
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-title"
+        >
+          Dealer Fee
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-value"
+        >
+          -
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-title"
+        >
+          Paint Protection
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 spec-value"
+        >
+          £100
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 finance-section"
+    >
+      <div
+        className="MuiGrid-container-1 finance-container"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 offer-term"
+        >
+          60
+           months
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 offer-price"
+        >
+          <div
+            className="offer-amount"
+          >
+            £900
+          </div>
+          <div
+            className="offer-pm"
+          >
+             /pm
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 apr-percentage"
+        >
+          19
+          % APR
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 finance-balance"
+        >
+          Balance to finance £10,000
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 payable-amount"
+        >
+          Total payable £75,000
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <button
+            className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-contained-118 MuiButton-raised-121 view-deal-sheet-btn"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-108"
+            >
+              View deal sheet
+            </span>
+            <span
+              className="MuiTouchRipple-root-136"
+            />
+          </button>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <button
+            className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 edit-quote-btn"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-108"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-98 edit-icon"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+               Edit quote
+            </span>
+            <span
+              className="MuiTouchRipple-root-136"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 car-dealer-info"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-8-37"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

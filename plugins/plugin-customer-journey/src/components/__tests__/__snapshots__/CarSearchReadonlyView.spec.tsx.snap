@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearchReadonlyView renders correctly 1`] = `
+<div
+  className="css-17w034h"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+      >
+        <label
+          className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+        >
+          Car make
+        </label>
+        <div
+          className="item-value"
+        >
+          test1, test2
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+      >
+        <label
+          className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+        >
+          Car model
+        </label>
+        <div
+          className="item-value"
+        >
+          test1, test2
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+      >
+        <label
+          className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+        >
+          Body type
+        </label>
+        <div
+          className="item-value"
+        >
+          test1, test2
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+      >
+        <label
+          className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+        >
+          Fuel type
+        </label>
+        <div
+          className="item-value"
+        >
+          test1, test2
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+      >
+        <label
+          className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+        >
+          Colour
+        </label>
+        <div
+          className="item-value"
+        >
+          test1, test2
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+    />
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+          >
+            <label
+              className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+            >
+              Part Ex. Value
+            </label>
+            <div
+              className="item-value"
+            >
+              £220
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+          >
+            <label
+              className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+            >
+              Deposit
+            </label>
+            <div
+              className="item-value"
+            >
+              £300
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+          >
+            <label
+              className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+            >
+              Term
+            </label>
+            <div
+              className="item-value"
+            >
+              48 months
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 item-container"
+          >
+            <label
+              className="MuiFormLabel-root-109 MuiInputLabel-root-98 MuiInputLabel-animated-106"
+            >
+              Part Ex. Settlement
+            </label>
+            <div
+              className="item-value"
+            >
+              £400
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+    >
+      
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33"
+    >
+      
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-3-32 edit-search-container"
+    >
+      <button
+        className="MuiButtonBase-root-142 MuiButton-root-116 MuiButton-text-118 MuiButton-flat-121 MuiButton-sizeLarge-140"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-117"
+        >
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-145 MuiIcon-fontSizeSmall-152 edit-icon"
+          >
+            edit
+          </span>
+          Edit Search
+        </span>
+        <span
+          className="MuiTouchRipple-root-154"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

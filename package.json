@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "common/*",
+      "plugins/*"
+    ]
+  },
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf ./common/*/lib",
+    "build": "yarn build:cjs && yarn build:esm",
+    "build:cjs": "yarn module:cjs && tsc --build tsconfig.project.json",
+    "build:esm": "yarn module:esm && tsc --build tsconfig.project.json",
+    "dev:cjs": "yarn build:cjs --watch",
+    "dev:esm": "yarn build:esm --watch",
+    "module:cjs": "sed -i -e '0,/target/{s:esnext:es5:}' -e '0,/module/{s:esnext:commonjs:}' ./tsconfig.json && sed -i -e s:lib/esm:lib/cjs: common/**/tsconfig.json",
+    "module:esm": "sed -i -e s:es5:esnext: -e s:commonjs:esnext: ./tsconfig.json && sed -i -e s:lib/cjs:lib/esm: common/**/tsconfig.json",
+    "plugin-customer-journey": "yarn workspace plugin-customer-journey",
+    "plugin-money-collections": "yarn workspace plugin-money-collections",
+    "common-components-test": "cd common/components && npm run test",
+    "lint-plugins": "yarn eslint --fix-dry-run ./plugins/**/src/**/*.ts*",
+    "lint-common": "yarn eslint --fix-dry-run ./common/components/src/**/*.ts*"
+  },
+  "dependencies": {
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "lodash": "^4.17.21",
+    "react": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.4.7",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4",
+    "prettier": "^2.3.1",
+    "typescript": "^3.8.0"
+  }
+}

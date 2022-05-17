@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerDetailWrapper renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="customer-profile"
+  >
+    <button
+      className="update-detail-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Update Details
+    </button>
+  </div>
+</div>
+`;

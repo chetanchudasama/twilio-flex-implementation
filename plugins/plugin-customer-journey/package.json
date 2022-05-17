@@ -1,0 +1,35 @@
+{
+  "name": "plugin-customer-journey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "start": "twilio flex:plugins:start",
+    "build": "twilio flex:plugins:build",
+    "install:dev": "npm i",
+    "test": "twilio flex:plugins:test",
+    "deploy": "twilio flex:plugins:deploy",
+    "release": "twilio flex:plugins:release"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@twilio/flex-ui": "^1.27.0",
+    "flex-plugin-scripts": "4.1.0",
+    "flush-promises": "^1.0.2",
+    "moment": "^2.29.1",
+    "react": "16.13.1",
+    "react-code-input": "^3.10.1",
+    "react-dom": "16.13.1",
+    "react-h5-audio-player": "^3.7.1",
+    "react-redux": "~5.1.0",
+    "react-select": "2.4.3",
+    "redux": "^3.7.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.0",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^3"
+  }
+}

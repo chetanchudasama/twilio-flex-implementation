@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerBannerWrapper renders correctly 1`] = `
+<div>
+  Customer Banner
+  <button
+    className="save-third-party-detail"
+    onClick={[Function]}
+    type="button"
+  >
+    Save Third Party Detail
+  </button>
+  <button
+    className="set-callback"
+    onClick={[Function]}
+    type="button"
+  >
+    Set Callback
+  </button>
+  <button
+    className="delete-callback"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete
+  </button>
+</div>
+`;

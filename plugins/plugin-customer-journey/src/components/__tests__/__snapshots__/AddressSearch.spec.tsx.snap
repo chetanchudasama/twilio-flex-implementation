@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressSearch renders correctly 1`] = `
+<div
+  className="css-1e54dbh"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41 address-configuration"
+  >
+    <div
+      className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41 address-current"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-10-39"
+      >
+        <div
+          className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          31A sub-building, 
+          test-building-name, 
+          1
+        </div>
+        <div
+          className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+          id="address-readonly-street-name"
+        >
+          Side Street
+        </div>
+        <div
+          className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+          id="address-readonly-town-name"
+        >
+          Fictional Town
+        </div>
+        <div
+          className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          POST CODE 1
+        </div>
+      </div>
+      <div
+        className="MuiGrid-container-1 MuiGrid-item-2 MuiGrid-align-items-xs-flex-end-11 MuiGrid-align-content-xs-flex-start-14 MuiGrid-justify-xs-flex-end-19 MuiGrid-grid-xs-2-31"
+      >
+        <button
+          className="MuiButtonBase-root-124 MuiButton-root-98 MuiButton-text-100 MuiButton-textSecondary-102 MuiButton-flat-103 MuiButton-flatSecondary-105 address-edit-button"
+          disabled={false}
+          id="address-readonly-edit"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-99"
+          >
+            <span
+              aria-hidden="true"
+              className="material-icons MuiIcon-root-127 edit-icon edit-icon-button"
+            >
+              edit
+            </span>
+            Edit
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

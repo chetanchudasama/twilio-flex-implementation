@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearchResultDetail renders correctly 1`] = `
+<div
+  className="css-1jf3sw2"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 vehicle-img-container"
+    >
+      <div
+        className="css-1epo2pu"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="vehicle-img"
+          src="imageUrl"
+        />
+        <div
+          className="image-count"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-98 icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="3.2"
+            />
+            <path
+              d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          1
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-8-37"
+    >
+      <div
+        className="MuiGrid-container-1 car-search-detail"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-8-37"
+        >
+          <div
+            className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 car-carousel"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="car-price"
+              >
+                £500,000
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div
+                className="car-model"
+              >
+                Bentley Motors | Bentley Continental GT
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <ul
+                className="car-specification"
+              >
+                <li>
+                  13 miles
+                </li>
+                <li>
+                  BM12853
+                </li>
+                <li>
+                  2016
+                </li>
+                <li>
+                  Automatic
+                </li>
+                <li>
+                  Petrol
+                </li>
+              </ul>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 view-more-detail"
+            >
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-text-109 MuiButton-flat-112 view-more-detail-link"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  View More Detail
+                </span>
+              </button>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-contained-118 MuiButton-raised-121 quote-btn"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  Quote
+                </span>
+                <span
+                  className="MuiTouchRipple-root-136"
+                />
+              </button>
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 secondary-button"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[MockFunction]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-98 icon"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <g>
+                      <path
+                        d="M19.66 3.99c-2.64-1.8-5.9-.96-7.66 1.1-1.76-2.06-5.02-2.91-7.66-1.1-1.4.96-2.28 2.58-2.34 4.29-.14 3.88 3.3 6.99 8.55 11.76l.1.09c.76.69 1.93.69 2.69-.01l.11-.1c5.25-4.76 8.68-7.87 8.55-11.75-.06-1.7-.94-3.32-2.34-4.28zM12.1 18.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-136"
+                />
+              </button>
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 secondary-button whatsapp-icon-button"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <svg
+                    fontSize="22px"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    x="0px"
+                    y="0px"
+                  >
+                    <path
+                      d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.96-1.38-.92-2.61.05-1.22.69-1.8.95-2.04.24-.26.51-.29.68-.26h.47c.15 0 .36-.06.55.45l.69 1.87c.06.13.1.28.01.44l-.27.41-.39.42c-.12.12-.26.25-.12.5.12.26.62 1.09 1.32 1.78.91.88 1.71 1.17 1.95 1.3.24.14.39.12.54-.04l.81-.94c.19-.25.35-.19.58-.11l1.67.88M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.97 0-3.8-.57-5.35-1.55L2 22l1.55-4.65A9.969 9.969 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.72.54 3.31 1.46 4.61L4.5 19.5l2.89-.96A7.95 7.95 0 0 0 12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8z"
+                      fill="#5f4dd5"
+                      opacity=""
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-136"
+                />
+              </button>
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 secondary-button sms-icon-button"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-98 icon"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-136"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33"
+        >
+          <div
+            className="offer-selected"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="offer-best-match-selected"
+            >
+              Best Match
+            </div>
+            <div
+              className="offer-detail-content"
+            >
+              <div
+                className="offer-term"
+              >
+                36
+                 months from
+              </div>
+              <div
+                className="offer-price"
+              >
+                <div
+                  className="offer-amount"
+                >
+                  £2,000
+                </div>
+                <div
+                  className="offer-pm"
+                >
+                  /pm
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="offer-unavailable"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="offer-detail-content"
+            >
+              <div
+                className="offer-term"
+              >
+                48
+                 months from
+              </div>
+              <div
+                className="offer-price"
+              >
+                <div
+                  className="offer-amount"
+                >
+                  Unavailable
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="offer-detail"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="offer-detail-content"
+            >
+              <div
+                className="offer-term"
+              >
+                60
+                 months from
+              </div>
+              <div
+                className="offer-price"
+              >
+                <div
+                  className="offer-amount"
+                >
+                  £8,000
+                </div>
+                <div
+                  className="offer-pm"
+                >
+                  /pm
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="dealer-fee"
+          >
+            Excl. £200 dealer fee
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

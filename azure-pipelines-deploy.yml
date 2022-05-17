@@ -1,0 +1,103 @@
+name: "$(GITVERSION.SemVer)"
+
+# Variable for incremental version number
+variables:
+  GitVersion.SemVer: ""
+
+trigger: none
+
+# Same steps as the unit tests pipeline to run the tests and build the plugin
+steps:
+  - task: NodeTool@0
+    displayName: "Install node.js"
+    inputs:
+      versionSpec: "14.x"
+
+  - script: |
+      npm i -g npm
+      npm i -g yarn@1.22.10
+      npm i -g twilio-cli
+      twilio plugins:install @twilio-labs/plugin-flex
+    displayName: "Install yarn, Twilio CLI and Flex Plugin extension for the Twilio CLI"
+
+  - script: |
+      yarn install
+      yarn build
+    displayName: "Install dependencies and build common libraries"
+
+  - script: |
+      yarn common-components-test
+    displayName: "Run unit tests for common components"
+
+  - script: |
+      yarn plugin-customer-journey install:dev
+    displayName: "Customer Journey Plugin - Install dev dependencies"
+
+  # Customer Journey Plugin
+  # Download appConfig
+  - task: DownloadSecureFile@1
+    name: secureAppConfigFile
+    displayName: "Download secure file (appConfig.js)"
+    inputs:
+      secureFile: "plugin-customer-journey.appConfig.js"
+
+  - task: PowerShell@2
+    inputs:
+      targetType: "inline"
+      script: |
+        New-Item -ItemType Directory -Force -Path $(Build.Repository.LocalPath)/plugins/plugin-customer-journey/public
+        copy-item -path $(secureAppConfigFile.secureFilePath) -destination $(Build.Repository.LocalPath)/plugins/plugin-customer-journey/public/appConfig.js
+    displayName: "Copy appConfig.js to plugin root folder"
+
+  # Download env file
+  - task: DownloadSecureFile@1
+    name: secureEnvFile
+    displayName: "Download secure file (.env)"
+    inputs:
+      secureFile: "plugin-customer-journey.env"
+
+  - task: PowerShell@2
+    inputs:
+      targetType: "inline"
+      script: |
+        copy-item -path $(secureEnvFile.secureFilePath) -destination $(Build.Repository.LocalPath)/plugins/plugin-customer-journey/.env
+
+  - script: |
+      yarn plugin-customer-journey test
+    displayName: "Customer Journey Plugin - Run unit tests"
+    env:
+      TWILIO_ACCOUNT_SID: $(TWILIO_ACCOUNT_SID)
+      TWILIO_API_KEY: $(TWILIO_API_KEY)
+      TWILIO_API_SECRET: $(TWILIO_API_SECRET)
+
+  # Ensure production build runs without issues
+  - script: |
+      yarn plugin-customer-journey build
+    displayName: "Build Customer Journey Plugin"
+    env:
+      TWILIO_ACCOUNT_SID: $(TWILIO_ACCOUNT_SID)
+      TWILIO_API_KEY: $(TWILIO_API_KEY)
+      TWILIO_API_SECRET: $(TWILIO_API_SECRET)
+
+  # Setup versioning
+  - task: gitversion/setup@0
+    inputs:
+      versionSpec: "5.x"
+  - task: gitversion/execute@0
+
+  # Deploy the Customer Journey Plugin
+  - script: |
+      yarn plugin-customer-journey deploy --minor --description "Build $(GITVERSION.SemVer)" --changelog "$(Build.SourceVersionMessage)"
+    displayName: "Deploy Customer Journey Plugin"
+    env:
+      TWILIO_ACCOUNT_SID: $(TWILIO_ACCOUNT_SID)
+      TWILIO_API_KEY: $(TWILIO_API_KEY)
+      TWILIO_API_SECRET: $(TWILIO_API_SECRET)
+# TODO: Release plugin
+#- script: |
+#    twilio flex:plugins:release --plugin plugin-customer-journey@latest --name "Release $(GITVERSION.SemVer)" --description "Release Customer Journey plugin $(GITVERSION.SemVer)"
+#  displayName: 'Release Customer Journey Plugin'
+#  env:
+#    TWILIO_ACCOUNT_SID: $(TWILIO_ACCOUNT_SID)
+#    TWILIO_API_KEY: $(TWILIO_API_KEY)
+#    TWILIO_API_SECRET: $(TWILIO_API_SECRET)

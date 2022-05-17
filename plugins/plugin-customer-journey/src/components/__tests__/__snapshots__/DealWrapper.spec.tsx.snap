@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DealWrapper renders correctly, with props 1`] = `
+<div>
+  <button
+    className="onNext"
+    onClick={[Function]}
+    type="button"
+  >
+    onNext
+  </button>
+  <button
+    className="onPrevious"
+    onClick={[Function]}
+    type="button"
+  >
+    onPrevious
+  </button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias omnis temporibus modi expedita totam consequuntur ad perspiciatis illum veniam tempore officia maiores dicta odit maxime et, placeat officiis. Obcaecati?
+</div>
+`;
+
+exports[`DealWrapper renders correctly, without any props 1`] = `
+<div>
+  <button
+    className="onNext"
+    onClick={[Function]}
+    type="button"
+  >
+    onNext
+  </button>
+  <button
+    className="onPrevious"
+    onClick={[Function]}
+    type="button"
+  >
+    onPrevious
+  </button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias omnis temporibus modi expedita totam consequuntur ad perspiciatis illum veniam tempore officia maiores dicta odit maxime et, placeat officiis. Obcaecati?
+</div>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmploymentListItem renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-1es052e"
+>
+  <div
+    className="MuiCardHeader-root-98 card-header"
+  >
+    <div
+      className="MuiCardHeader-avatar-99"
+    >
+      <div
+        className="MuiAvatar-root-104 MuiAvatar-colorDefault-105 icon"
+        color="secondary"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-107 MuiSvgIcon-colorSecondary-109"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0zm10 5h4v2h-4zm0 0h4v2h-4z"
+            fill="none"
+          />
+          <path
+            d="M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="MuiCardHeader-content-101"
+    >
+      <span
+        className="MuiTypography-root-116 MuiTypography-body2-124 MuiCardHeader-title-102"
+      >
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 title title-line-1"
+        >
+          Car rental agent (Full-time)
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 title title-line-2"
+        >
+          Zara R Woods
+        </span>
+      </span>
+      <span
+        className="MuiTypography-root-116 MuiTypography-body2-124 MuiTypography-colorTextSecondary-149 MuiCardHeader-subheader-103 subheader"
+      >
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          3, Granary Granary-23, 75 Golf Road
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          SWILLAND, IP6 3YZ
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          +446349900077
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          2 years, 25 months
+        </span>
+      </span>
+    </div>
+    <div
+      className="MuiCardHeader-action-100"
+    >
+      <button
+        className="MuiButtonBase-root-178 MuiButton-root-152 MuiButton-text-154 MuiButton-textSecondary-156 MuiButton-flat-157 MuiButton-flatSecondary-159 MuiButton-sizeSmall-175 action-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-153"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-107 MuiSvgIcon-fontSizeSmall-114 action-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          Edit
+        </span>
+        <span
+          className="MuiTouchRipple-root-186"
+        />
+      </button>
+    </div>
+  </div>
+  <hr
+    className="MuiDivider-root-181 divider"
+  />
+</div>
+`;

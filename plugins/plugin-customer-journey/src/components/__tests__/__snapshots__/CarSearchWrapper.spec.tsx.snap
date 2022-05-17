@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearchWrapper renders correctly, with props 1`] = `
+<div
+  className="css-6e08cn"
+>
+  <div>
+    <button
+      className="onNext"
+      onClick={[Function]}
+      type="button"
+    >
+      onNext
+    </button>
+    <button
+      className="onPrevious"
+      onClick={[Function]}
+      type="button"
+    >
+      onPrevious
+    </button>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 tab-container"
+        >
+          <div
+            className="MuiTabs-root-98"
+          >
+            <div
+              className="MuiTabs-flexContainer-99"
+            >
+              <div
+                className="MuiTabs-scroller-101 MuiTabs-fixed-102"
+                onScroll={[Function]}
+                role="tablist"
+                style={
+                  Object {
+                    "marginBottom": 0,
+                  }
+                }
+              >
+                <div
+                  className="MuiTabs-flexContainer-99 MuiTabs-centered-100"
+                >
+                  <button
+                    aria-selected={true}
+                    className="MuiButtonBase-root-119 MuiTab-root-107 MuiTab-textColorSecondary-111 MuiTab-selected-112"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="tab"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiTab-wrapper-115"
+                    >
+                      <span
+                        className="MuiTab-labelContainer-116"
+                      >
+                        <span
+                          className="MuiTab-label-117"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root-122 tab-icon"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                            />
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                          </svg>
+                          <span
+                            className="tab-title"
+                          >
+                            car search
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-134"
+                    />
+                  </button>
+                  <button
+                    aria-selected={false}
+                    className="MuiButtonBase-root-119 MuiTab-root-107 MuiTab-textColorSecondary-111"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="tab"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiTab-wrapper-115"
+                    >
+                      <span
+                        className="MuiTab-labelContainer-116"
+                      >
+                        <span
+                          className="MuiTab-label-117"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root-122 tab-icon"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                            />
+                          </svg>
+                          <span
+                            className="tab-title"
+                          >
+                            Saved Cars (0)
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-134"
+                    />
+                  </button>
+                </div>
+                <span
+                  className="MuiPrivateTabIndicator-root-131 MuiPrivateTabIndicator-colorSecondary-133 MuiTabs-indicator-106"
+                  style={
+                    Object {
+                      "left": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 tab-content"
+          style={
+            Object {
+              "height": "fit-content",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div>
+                <button
+                  className="search-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarSearchWrapper renders correctly, without any props 1`] = `
+<div
+  className="css-6e08cn"
+>
+  <div>
+    <button
+      className="onNext"
+      onClick={[Function]}
+      type="button"
+    >
+      onNext
+    </button>
+    <button
+      className="onPrevious"
+      onClick={[Function]}
+      type="button"
+    >
+      onPrevious
+    </button>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 tab-container"
+        >
+          <div
+            className="MuiTabs-root-98"
+          >
+            <div
+              className="MuiTabs-flexContainer-99"
+            >
+              <div
+                className="MuiTabs-scroller-101 MuiTabs-fixed-102"
+                onScroll={[Function]}
+                role="tablist"
+                style={
+                  Object {
+                    "marginBottom": 0,
+                  }
+                }
+              >
+                <div
+                  className="MuiTabs-flexContainer-99 MuiTabs-centered-100"
+                >
+                  <button
+                    aria-selected={true}
+                    className="MuiButtonBase-root-119 MuiTab-root-107 MuiTab-textColorSecondary-111 MuiTab-selected-112"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="tab"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiTab-wrapper-115"
+                    >
+                      <span
+                        className="MuiTab-labelContainer-116"
+                      >
+                        <span
+                          className="MuiTab-label-117"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root-122 tab-icon"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                            />
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                          </svg>
+                          <span
+                            className="tab-title"
+                          >
+                            car search
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-134"
+                    />
+                  </button>
+                  <button
+                    aria-selected={false}
+                    className="MuiButtonBase-root-119 MuiTab-root-107 MuiTab-textColorSecondary-111"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="tab"
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiTab-wrapper-115"
+                    >
+                      <span
+                        className="MuiTab-labelContainer-116"
+                      >
+                        <span
+                          className="MuiTab-label-117"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root-122 tab-icon"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                            />
+                          </svg>
+                          <span
+                            className="tab-title"
+                          >
+                            Saved Cars (0)
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-134"
+                    />
+                  </button>
+                </div>
+                <span
+                  className="MuiPrivateTabIndicator-root-131 MuiPrivateTabIndicator-colorSecondary-133 MuiTabs-indicator-106"
+                  style={
+                    Object {
+                      "left": 0,
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 tab-content"
+          style={
+            Object {
+              "height": "fit-content",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-center-18"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div>
+                <button
+                  className="search-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+            >
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

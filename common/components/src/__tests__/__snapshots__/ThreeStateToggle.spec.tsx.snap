@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreeStateToggle when toggle is initialized with checked state, renders correctly 1`] = `
+<div
+  className="MuiToggleButtonGroup-root-5 ThreeStateToggleContent-root-1 MuiToggleButtonGroup-selected-6"
+>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-intermediate"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={2}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Not Asked
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-no"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={1}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      No
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 MuiToggleButton-selected-9 ThreeStateToggleContent-selected-3 btn-yes"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={0}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Yes
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+</div>
+`;
+
+exports[`ThreeStateToggle when toggle is initialized with intermediate state, renders correctly 1`] = `
+<div
+  className="MuiToggleButtonGroup-root-5 ThreeStateToggleContent-root-1 MuiToggleButtonGroup-selected-6"
+>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 MuiToggleButton-selected-9 ThreeStateToggleContent-selected-3 btn-intermediate"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={2}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Not Asked
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-no"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={1}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      No
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-yes"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={0}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Yes
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+</div>
+`;
+
+exports[`ThreeStateToggle when toggle is initialized with unchecked state, renders correctly 1`] = `
+<div
+  className="MuiToggleButtonGroup-root-5 ThreeStateToggleContent-root-1 MuiToggleButtonGroup-selected-6"
+>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-intermediate"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={2}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Not Asked
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 MuiToggleButton-selected-9 ThreeStateToggleContent-selected-3 btn-no"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={1}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      No
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-11 MuiToggleButton-root-7 ThreeStateToggleContent-button-2 btn-yes"
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+    value={0}
+  >
+    <span
+      className="MuiToggleButton-label-10 ThreeStateToggleContent-label-4"
+    >
+      Yes
+    </span>
+    <span
+      className="MuiTouchRipple-root-14"
+    />
+  </button>
+</div>
+`;

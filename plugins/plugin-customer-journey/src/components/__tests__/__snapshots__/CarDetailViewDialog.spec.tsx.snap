@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarDetailViewDialog renders correctly on load 1`] = `
+<div
+  className="css-k8vt34"
+>
+  <div
+    className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130"
+  >
+    <div
+      className="MuiGrid-item-109 MuiGrid-grid-xs-6-142"
+    >
+      <div
+        className="MuiGrid-container-108"
+      >
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-12-148 car-dialog-image"
+        >
+          <div
+            className="vehicleImage"
+          >
+            Vehicle Image
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-12-148 dealer-info-content"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-109 MuiGrid-grid-xs-6-142"
+    >
+      <div
+        className="MuiGrid-container-108 car-spec-detail"
+      >
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-12-148"
+        >
+          <div
+            className="car-price"
+          >
+            500000
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-12-148"
+        >
+          <ul
+            className="car-specification"
+          >
+            <li>
+              Bentley Motors
+            </li>
+            <li>
+              Bentley Continental GT
+            </li>
+            <li>
+              Convertible
+            </li>
+            <li>
+              dr
+            </li>
+          </ul>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Transmission
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              Automatic
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-left"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Body Type
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              Convertible
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Engine Size
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              0L
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-left"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Doors
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              0dr
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Fuel Type
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              Petrol
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-left"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Colour
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              white
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Trim
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-left"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Year
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              2016
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Mileage
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              13 mi
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-left"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Distance
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              0
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142 space-right"
+        >
+          <div
+            className="MuiGrid-container-108 MuiGrid-spacing-xs-8-130 car-prop"
+          >
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-5-141 car-prop-type"
+            >
+              Reg. Number
+            </div>
+            <div
+              className="MuiGrid-item-109 MuiGrid-grid-xs-7-143 car-prop-value"
+            >
+              BM12853
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-6-142"
+        />
+        <div
+          className="MuiGrid-item-109 MuiGrid-grid-xs-12-148 expand-more"
+        >
+          <button
+            className="MuiButtonBase-root-231 MuiButton-root-205 MuiButton-text-207 MuiButton-flat-210 expand-more-link"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-206"
+            >
+              <div>
+                View full specs
+              </div>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-234"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 24H0V0h24v24z"
+                  fill="none"
+                  opacity=".87"
+                />
+                <path
+                  d="M15.88 9.29L12 13.17 8.12 9.29a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41-.39-.38-1.03-.39-1.42 0z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

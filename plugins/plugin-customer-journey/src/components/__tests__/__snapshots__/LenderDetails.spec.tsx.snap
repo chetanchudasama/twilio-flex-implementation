@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LenderDetail renders correctly on load 1`] = `
+<div
+  className="css-cbti2r"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 lender-detail-heading"
+    >
+      Lender Details
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 preferred-lender"
+    >
+      <span
+        className="preferred-lender-icon"
+      >
+        <div>
+          Preferred Lender Icon
+        </div>
+      </span>
+      <span
+        className="preferred-lender-name"
+      >
+        Preferred Lender: 
+        123 Debt Solutions
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+name: $(date:yyyyMMdd).$(buildId).$(Rev:r)
+
+trigger:
+  - develop
+
+steps:
+  - task: NodeTool@0
+    displayName: "Install node.js"
+    inputs:
+      versionSpec: "14.x"
+
+  - script: |
+      npm i -g yarn@1.22.10
+      npm i -g twilio-cli
+      twilio plugins:install @twilio-labs/plugin-flex
+    displayName: "Install yarn, Twilio CLI and Flex Plugin extension for the Twilio CLI"
+
+  - script: |
+      yarn install
+      yarn build
+    displayName: "Install dependencies and build common libraries"
+
+  - script: |
+      yarn common-components-test
+    displayName: "Run unit tests for common components"
+
+  - script: |
+      yarn plugin-customer-journey install:dev
+    displayName: "Customer Journey Plugin - Install dev dependencies"
+
+  # Run tests
+  - script: |
+      yarn plugin-customer-journey test
+    displayName: "Customer Journey Plugin - Run unit tests"
+    env:
+      TWILIO_ACCOUNT_SID: $(TWILIO_ACCOUNT_SID)
+      TWILIO_API_KEY: $(TWILIO_API_KEY)
+      TWILIO_API_SECRET: $(TWILIO_API_SECRET)
+
+  - script: |
+      yarn plugin-customer-journey build
+    displayName: "Build Customer Journey Plugin"

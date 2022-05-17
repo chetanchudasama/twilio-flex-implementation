@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QualifyDetail renders correctly 1`] = `
+<div
+  className="css-dgid8x"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 qualify-detail-heading"
+    >
+      Qualify
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+      >
+        <div
+          className="MuiGrid-item-2"
+        >
+          <p
+            className="MuiTypography-root-98 MuiTypography-caption-108"
+          >
+            Does the customer have a valid full UK driving license?
+          </p>
+        </div>
+        <div
+          className="MuiGrid-item-2"
+        >
+          <div
+            className="Three-State-Toggle-Button"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <hr
+            className="MuiDivider-root-134"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+      >
+        <div
+          className="MuiGrid-item-2"
+        >
+          <p
+            className="MuiTypography-root-98 MuiTypography-caption-108"
+          >
+            Is the address on the customer's driving licence on this application?
+          </p>
+        </div>
+        <div
+          className="MuiGrid-item-2"
+        >
+          <div
+            className="Three-State-Toggle-Button"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+        >
+          <hr
+            className="MuiDivider-root-134"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-justify-xs-space-between-20"
+      >
+        <div
+          className="MuiGrid-item-2"
+        >
+          <p
+            className="MuiTypography-root-98 MuiTypography-caption-108 income-text"
+          >
+            Is the customer's monthly net income £0?
+          </p>
+        </div>
+        <div
+          className="MuiGrid-item-2"
+        >
+          <div
+            className="Three-State-Toggle-Button"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerBanner renders correctly 1`] = `
+<div
+  className="css-1scgk88"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-1"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-9-38"
+        >
+          <span
+            className="app-text"
+          >
+            Applications
+          </span>
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-98 app-icon"
+          >
+            chevron_right
+          </span>
+          <span
+            className="name"
+          >
+            Thomas Snow
+          </span>
+          <span
+            className="app-status"
+          >
+            Proceeding
+          </span>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 text-align-right"
+        >
+          <div
+            className="css-12ot580"
+          >
+            <div
+              className=""
+            >
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 callback-btn"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98 MuiIcon-fontSizeSmall-105 callback-icon"
+                  >
+                    phone_enabled
+                  </span>
+                  Set Callback
+                </span>
+                <span
+                  className="MuiTouchRipple-root-151"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 banner-menu"
+        >
+          <div
+            className="customer-banner-menu"
+          >
+            Customer Banner Menu
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-2"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-136"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"
+                />
+              </svg>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 dob"
+            >
+              21/05/2021
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                place
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 address"
+            >
+              Address
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+            >
+              <div>
+                Preferred Lender Icon
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 preferred-lender"
+            >
+              <span
+                className="lender-label"
+              >
+                Preferred Lender:
+              </span>
+              <span
+                className="lender-name"
+              >
+                Auto loan
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-3"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <button
+                aria-label="phone"
+                className="MuiButtonBase-root-133 MuiButtonBase-disabled-134 MuiIconButton-root-145 MuiIconButton-disabled-149 mobile-icon"
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="-1"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label-150"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-136 MuiSvgIcon-fontSizeSmall-143"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 mobile-number"
+            >
+              +1 609-984-1675
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                email
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 email"
+            >
+              thomas.snow@gmail.com
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 percentIcon"
+                >
+                  %
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 apr"
+                >
+                  APR: 
+                  19.8 %
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 icon"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98"
+                  >
+                    layers
+                  </span>
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 tier"
+                >
+                  Tier 1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomerBanner should render custom snackbar message, when customer is marked as vulnerable 1`] = `
+<div
+  className="css-1scgk88"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-1"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-9-38"
+        >
+          <span
+            className="app-text"
+          >
+            Applications
+          </span>
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-98 app-icon"
+          >
+            chevron_right
+          </span>
+          <span
+            className="name"
+          >
+            Thomas Snow
+          </span>
+          <span
+            className="app-status"
+          >
+            Proceeding
+          </span>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 text-align-right"
+        >
+          <div
+            className="css-12ot580"
+          >
+            <div
+              className=""
+            >
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 callback-btn"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98 MuiIcon-fontSizeSmall-105 callback-icon"
+                  >
+                    phone_enabled
+                  </span>
+                  Set Callback
+                </span>
+                <span
+                  className="MuiTouchRipple-root-151"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 banner-menu"
+        >
+          <div
+            className="customer-banner-menu"
+          >
+            Customer Banner Menu
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-2"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-136"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"
+                />
+              </svg>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 dob"
+            >
+              21/05/2021
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                place
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 address"
+            >
+              Address
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+            >
+              <div>
+                Preferred Lender Icon
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 preferred-lender"
+            >
+              <span
+                className="lender-label"
+              >
+                Preferred Lender:
+              </span>
+              <span
+                className="lender-name"
+              >
+                Auto loan
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-3"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <button
+                aria-label="phone"
+                className="MuiButtonBase-root-133 MuiButtonBase-disabled-134 MuiIconButton-root-145 MuiIconButton-disabled-149 mobile-icon"
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="-1"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label-150"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-136 MuiSvgIcon-fontSizeSmall-143"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 mobile-number"
+            >
+              +1 609-984-1675
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                email
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 email"
+            >
+              thomas.snow@gmail.com
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 percentIcon"
+                >
+                  %
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 apr"
+                >
+                  APR: 
+                  19.8 %
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 icon"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98"
+                  >
+                    layers
+                  </span>
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 tier"
+                >
+                  Tier 1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 CustomSnackbarContent-root-158"
+        >
+          <div
+            className="MuiTypography-root-201 MuiTypography-body2-209 MuiPaper-root-174 MuiPaper-elevation6-182 MuiSnackbarContent-root-171 CustomSnackbarContent-snackbarContainer-159 CustomSnackbarContent-error-166"
+            role="alertdialog"
+          >
+            <div
+              className="MuiSnackbarContent-message-172"
+            >
+              <span
+                className="CustomSnackbarContent-message-161"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-136 CustomSnackbarContent-icon-163 CustomSnackbarContent-iconVariant-162"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+                  />
+                </svg>
+                This customer has been reported as vulnerable in this application (confirmed). See notes for more details
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 CustomSnackbarContent-root-158"
+        >
+          <div
+            className="MuiTypography-root-201 MuiTypography-body2-209 MuiPaper-root-174 MuiPaper-elevation6-182 MuiSnackbarContent-root-171 CustomSnackbarContent-snackbarContainer-159 CustomSnackbarContent-secondary-169"
+            role="alertdialog"
+          >
+            <div
+              className="MuiSnackbarContent-message-172"
+            >
+              <span
+                className="CustomSnackbarContent-message-161"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-136 CustomSnackbarContent-icon-163 CustomSnackbarContent-iconVariant-162"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                  />
+                </svg>
+                This customer has left third-party permission for Mr John until 30/06/2021
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomerBanner should render custom snackbar message, when third party authorization detail is not null 1`] = `
+<div
+  className="css-1scgk88"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-1"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-9-38"
+        >
+          <span
+            className="app-text"
+          >
+            Applications
+          </span>
+          <span
+            aria-hidden="true"
+            className="material-icons MuiIcon-root-98 app-icon"
+          >
+            chevron_right
+          </span>
+          <span
+            className="name"
+          >
+            Thomas Snow
+          </span>
+          <span
+            className="app-status"
+          >
+            Proceeding
+          </span>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 text-align-right"
+        >
+          <div
+            className="css-12ot580"
+          >
+            <div
+              className=""
+            >
+              <button
+                className="MuiButtonBase-root-133 MuiButton-root-107 MuiButton-outlined-115 callback-btn"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-108"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98 MuiIcon-fontSizeSmall-105 callback-icon"
+                  >
+                    phone_enabled
+                  </span>
+                  Set Callback
+                </span>
+                <span
+                  className="MuiTouchRipple-root-151"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 banner-menu"
+        >
+          <div
+            className="customer-banner-menu"
+          >
+            Customer Banner Menu
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-2"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-136"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"
+                />
+              </svg>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 dob"
+            >
+              21/05/2021
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                place
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 address"
+            >
+              Address
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+            >
+              <div>
+                Preferred Lender Icon
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 preferred-lender"
+            >
+              <span
+                className="lender-label"
+              >
+                Preferred Lender:
+              </span>
+              <span
+                className="lender-name"
+              >
+                Auto loan
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 banner-container-3"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-2-31"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <button
+                aria-label="phone"
+                className="MuiButtonBase-root-133 MuiButtonBase-disabled-134 MuiIconButton-root-145 MuiIconButton-disabled-149 mobile-icon"
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onContextMenu={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="-1"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label-150"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-136 MuiSvgIcon-fontSizeSmall-143"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 mobile-number"
+            >
+              +1 609-984-1675
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-1-30 icon"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-98"
+              >
+                email
+              </span>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-11-40 email"
+            >
+              thomas.snow@gmail.com
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-1-30"
+        />
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33 lender-info"
+        >
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 percentIcon"
+                >
+                  %
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 apr"
+                >
+                  APR: 
+                  19.8 %
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35"
+            >
+              <div
+                className="MuiGrid-container-1"
+              >
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-2-31 icon"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-98"
+                  >
+                    layers
+                  </span>
+                </div>
+                <div
+                  className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 tier"
+                >
+                  Tier 1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 CustomSnackbarContent-root-158"
+        >
+          <div
+            className="MuiTypography-root-201 MuiTypography-body2-209 MuiPaper-root-174 MuiPaper-elevation6-182 MuiSnackbarContent-root-171 CustomSnackbarContent-snackbarContainer-159 CustomSnackbarContent-secondary-169"
+            role="alertdialog"
+          >
+            <div
+              className="MuiSnackbarContent-message-172"
+            >
+              <span
+                className="CustomSnackbarContent-message-161"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-136 CustomSnackbarContent-icon-163 CustomSnackbarContent-iconVariant-162"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                  />
+                </svg>
+                This customer has left third-party permission for Mr John until 30/06/2021
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

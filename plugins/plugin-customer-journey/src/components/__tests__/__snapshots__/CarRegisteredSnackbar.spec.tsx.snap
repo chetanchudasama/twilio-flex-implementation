@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarRegisteredSnackbar renders correctly on load 1`] = `
+<div
+  className="MuiGrid-item-15 MuiGrid-grid-xs-12-54 CustomSnackbarContent-root-1"
+>
+  <div
+    className="MuiTypography-root-141 MuiTypography-body1-150 MuiPaper-root-114 MuiPaper-elevation6-122 MuiSnackbarContent-root-111 CustomSnackbarContent-snackbarContainer-2 CustomSnackbarContent-success-8"
+    role="alertdialog"
+  >
+    <div
+      className="MuiSnackbarContent-message-112"
+    >
+      <span
+        className="CustomSnackbarContent-message-4"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-177 CustomSnackbarContent-icon-6 CustomSnackbarContent-iconVariant-5"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          />
+        </svg>
+        Great news! This car is on our car search with one of our approved dealers!
+      </span>
+    </div>
+  </div>
+</div>
+`;

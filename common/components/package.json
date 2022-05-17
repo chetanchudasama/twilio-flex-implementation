@@ -1,0 +1,41 @@
+{
+  "name": "@common/components",
+  "version": "0.1.0",
+  "main": "lib/cjs/index.js",
+  "typings": "lib/cjs/index.d.ts",
+  "module": "lib/esm/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "material-ui-flat-pagination": "^3.2.1",
+    "material-ui-pickers": "^2.2.4",
+    "moment": "^2.29.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-image-lightbox": "^5.1.1",
+    "react-emotion": "^9.2.6",
+    "date-fns": "^2.22.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.23",
+    "@types/react": "16.9.56",
+    "@types/react-test-renderer": "16.9.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "flush-promises": "^1.0.2",
+    "jest": "^26.6.3",
+    "react-test-renderer": "16.13.1",
+    "ts-jest": "^26.5.6"
+  },
+  "peerDependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}

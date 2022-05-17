@@ -1,0 +1,86 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Deploy to Twilio Flex - P2TNG
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+env:
+  ENVIRONMENT: production
+  SKIP_PREFLIGHT_CHECK: true
+  API_GATEWAY_URL: "https://flex-api-gateway-services.carfinance247.co.uk"
+  UNBUNDLED_REACT: true
+  TWILIO_ACCOUNT_SID: ${{ secrets.GLOBAL_TWILIO_ACCOUNT_SID }}
+  TWILIO_AUTH_TOKEN: ${{ secrets.GLOBAL_TWILIO_AUTH_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+
+      - name: Create .env file
+        run: |
+          cd plugins/plugin-customer-journey
+          cat <<EOT >> '.env'
+          REACT_APP_ENVIRONMENT=${{ env.ENVIRONMENT }}
+          REACT_APP_DEVELOPMENT_MODE=false
+          REACT_APP_API_BASE_URL=${{ env.API_GATEWAY_URL }}
+          REACT_APP_PAINT_PROTECTION_VALUE=158
+          REACT_APP_CAR_SEARCH_PAGE_SIZE=15
+          REACT_APP_AGENT_GUIDE_FOR_LICENSE="PLACEHOLDER"
+          REACT_APP_AGENT_GUIDE_FOR_ADDRESS="PLACEHOLDER"
+          REACT_APP_AGENT_GUIDE_FOR_INCOME="PLACEHOLDER"
+          REACT_APP_AGENT_GUIDE_FOR_EMPLOYMENT="PLACEHOLDER"
+          EOT
+          echo .env:
+          cat .env
+
+      - name: Install twilio cli and install all dependencies
+        env:
+          UNBUNDLED_REACT: true
+          TWILIO_ACCOUNT_SID: ${{ secrets.GLOBAL_TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.GLOBAL_TWILIO_AUTH_TOKEN }}
+        # Install the Twilio CLI and the serverless plugin
+        run: npm install twilio-cli -g && twilio plugins:install @twilio-labs/plugin-flex
+
+      - name: Install Common Component dependencies
+        run: yarn install
+
+      # - name: Install dependencies for the twilio function
+      #   env:
+      #     UNBUNDLED_REACT: true
+      #   run: npm ci
+
+      - name: Build Common Components
+        run: yarn build
+
+      - name: Install Dev Dependencies for Unit Tests
+        run: yarn plugin-customer-journey install:dev
+
+      # TODO - Fix and re-implement into pipeline
+      # - name: Run common component tests
+      #   run: yarn common-components-test
+      # - name: Run unit tests
+      #   run: yarn plugin-customer-journey test
+      - name: Build plugin
+        run: yarn plugin-customer-journey build
+
+      # TODO - FIX LINTING ISSUES
+      # - name: Run linter
+      # run: yarn lint-plugins && yarn lint-common
+
+      - name: Deploy plugin
+        env:
+          UNBUNDLED_REACT: true
+          TWILIO_ACCOUNT_SID: ${{ secrets.GLOBAL_TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.GLOBAL_TWILIO_AUTH_TOKEN }}
+        run: yarn plugin-customer-journey deploy --description "Customer Workscreens" --changelog "${{ github.event.head_commit.message }}"

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeadGenerationContent renders correctly 1`] = `
+<div
+  className="css-do6ydh"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 lead-gen-container show-scrollbar"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 customer-name-lg"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-5-34 customer-name"
+        >
+          Jon Smith (#1)
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-7-36 menu-container"
+        >
+          <div>
+            Contact Outcome
+          </div>
+          <span
+            className="divider-left"
+          />
+          <div />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-4-33"
+        >
+          <div>
+            Campaign Details
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-8-37"
+        >
+          <div>
+            Recent Notes
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background"
+    >
+      <div>
+        Lender Detail
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background step-container"
+    >
+      <span
+        className="step-name"
+      >
+        01
+      </span>
+      <div>
+        DPA FCA
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background"
+    >
+      <div>
+        Customer Name
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background step-container"
+    >
+      <span
+        className="step-name"
+      >
+        02
+      </span>
+      <div>
+        Qualify Detail
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background step-container"
+    >
+      <span
+        className="step-name"
+      >
+        03
+      </span>
+      <div>
+        Fact Find
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background step-container"
+    >
+      <span
+        className="step-name"
+      >
+        04
+      </span>
+      <div>
+        Update Application
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 white-background step-container"
+    >
+      <span
+        className="step-name"
+      >
+        05
+      </span>
+      <div>
+        Allocation
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerProfile renders correctly 1`] = `
+<div
+  className="css-hwenn2"
+>
+  <div
+    className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
+  >
+    <div
+      className="MuiGrid-container-29"
+    >
+      <div
+        className="MuiCardContent-root-126 card-content"
+      >
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 customer-detail-title"
+        >
+          Customer Details
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={-1}
+          >
+            <em>
+              Select title
+            </em>
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={1}
+          >
+            Mrs
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 birthDate"
+        >
+          <div
+            className="css-1ysv0zs"
+          >
+            <label
+              className="MuiFormLabel-root-156 MuiFormLabel-required-161 MuiInputLabel-required-149 MuiInputLabel-root-145 MuiInputLabel-animated-153 MuiInputLabel-shrink-152 label "
+              data-shrink={true}
+            >
+              D.O.B
+              <span
+                className="MuiFormLabel-asterisk-162"
+              >
+                 *
+              </span>
+            </label>
+            <div
+              className="picker"
+            >
+              <div
+                className="MuiFormControl-root-163 MuiFormControl-fullWidth-166 date-picker"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+              >
+                
+                <div
+                  className="MuiInputBase-root-180 MuiOutlinedInput-root-167 MuiInputBase-fullWidth-189 MuiInputBase-formControl-181 MuiInputBase-adornedEnd-185 MuiOutlinedInput-adornedEnd-171"
+                  onClick={[Function]}
+                >
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiPrivateNotchedOutline-root-197 MuiOutlinedInput-notchedOutline-174"
+                    style={
+                      Object {
+                        "paddingLeft": 8,
+                      }
+                    }
+                  >
+                    <legend
+                      className="MuiPrivateNotchedOutline-legend-198"
+                      style={
+                        Object {
+                          "width": 0,
+                        }
+                      }
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "&#8203;",
+                          }
+                        }
+                      />
+                    </legend>
+                  </fieldset>
+                  <input
+                    aria-invalid={false}
+                    className="MuiInputBase-input-190 MuiOutlinedInput-input-175 MuiInputBase-inputAdornedEnd-196 MuiOutlinedInput-inputAdornedEnd-179"
+                    disabled={false}
+                    mask={null}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    pipe={null}
+                    readOnly={true}
+                    required={true}
+                    type="text"
+                    value="12/01/1991"
+                  />
+                  <button
+                    className="MuiButtonBase-root-265 MuiIconButton-root-259 clear-icon"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-264"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="material-icons MuiIcon-root-268"
+                      >
+                        clear
+                      </span>
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-277"
+                    />
+                  </button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={-1}
+          >
+            <em>
+              Select marital status
+            </em>
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={1}
+          >
+            Married
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={-1}
+          >
+            <em>
+              Select type
+            </em>
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+          <li
+            className="MuiButtonBase-root-142 MuiListItem-root-130 MuiListItem-default-133 MuiListItem-gutters-138 MuiListItem-button-139 MuiMenuItem-root-127 MuiMenuItem-gutters-128"
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="menuitem"
+            tabIndex={-1}
+            value={1}
+          >
+            Full UK Driving Licence
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </li>
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65"
+        >
+          <div
+            className="custom-input"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiCardActions-root-223 card-action"
+      >
+        <div
+          className="MuiGrid-item-30 MuiGrid-grid-xs-8-65 MuiCardActions-action-225"
+        >
+          <button
+            className="MuiButtonBase-root-142 MuiButton-root-226 MuiButton-contained-237 MuiButton-containedSecondary-239 MuiButton-raised-240 MuiButton-raisedSecondary-242 update-detail-btn"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-227"
+            >
+              Update Details
+            </span>
+            <span
+              className="MuiTouchRipple-root-252"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

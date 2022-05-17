@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressDetail renders correctly 1`] = `
+<div
+  className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 css-5st4sl"
+>
+  <div
+    className="MuiCardHeader-root-98 card-header"
+  >
+    <div
+      className="MuiCardHeader-avatar-99"
+    >
+      <div
+        className="MuiAvatar-root-104 MuiAvatar-colorDefault-105 icon"
+        color="secondary"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-107 MuiSvgIcon-colorSecondary-109"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="MuiCardHeader-content-101"
+    >
+      <span
+        className="MuiTypography-root-116 MuiTypography-body2-124 MuiCardHeader-title-102"
+      >
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 address-content address-line1"
+        >
+          110, Grange, Grange-1, 43 Buckingham Rd
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 address-content address-line2"
+        >
+          THORNBY, NN6 2XS
+        </span>
+      </span>
+      <span
+        className="MuiTypography-root-116 MuiTypography-body2-124 MuiTypography-colorTextSecondary-149 MuiCardHeader-subheader-103 subheader"
+      >
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          Home Owner
+        </span>
+        <span
+          className="MuiTypography-root-116 MuiTypography-body1-125 subheader-line"
+        >
+          1 years, 
+            12 months
+        </span>
+      </span>
+    </div>
+    <div
+      className="MuiCardHeader-action-100"
+    >
+      <button
+        className="MuiButtonBase-root-178 MuiButton-root-152 MuiButton-text-154 MuiButton-textSecondary-156 MuiButton-flat-157 MuiButton-flatSecondary-159 MuiButton-sizeSmall-175 edit-address-btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-153"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-107 MuiSvgIcon-fontSizeSmall-114 edit-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          Edit
+        </span>
+        <span
+          className="MuiTouchRipple-root-186"
+        />
+      </button>
+    </div>
+  </div>
+  <hr
+    className="MuiDivider-root-181 divider"
+  />
+</div>
+`;

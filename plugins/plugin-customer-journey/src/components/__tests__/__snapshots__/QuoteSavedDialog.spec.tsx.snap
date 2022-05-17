@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteSavedDialog renders correctly 1`] = `"This quote can be found on the quotes screen."`;
